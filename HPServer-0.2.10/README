@@ -1,0 +1,55 @@
+
+HPServer is a free, open-source light-weighted framework for concurrent networking software.
+
+Traits of HPServer:
+   object-oriented
+   high-performance
+   cross-platform, support windows & linux
+   event-driven
+   support I/O events, timer, and signals
+   support acceptor-connector pattern internally, which will faciliates your programming
+ 
+   support multithread
+Currently HPServer supports epoll, select in the form of reactor pattern, and it intends to integrate 
+both windows IOCP, and linux EPOLL into the proactor pattern, which will be implemented in the next build.
+
+------------------------------HOW TO BUILD--------------------------------------------
+-----on Linux-----
+to build
+   make
+to build a debug version, using
+   make CFLAG=DEBUG
+
+to make a package, using
+   make install
+ 
+-----on Windows-----
+to build
+	there are win32 projects, build them
+to make a package, using
+	run make-package.bat
+
+-------------------------------HOW TO USE----------------------------------------------
+Headers needed:
+	--configure & defines
+		HP_Config.h
+		defines.h
+	--acceptor-connector
+		SockAcceptor.h
+		Connector.h
+	--socket & time wrappers
+		InetAddr.h
+		SockUtil.h
+		TimeUtil.h
+
+		EventHandler.h
+		Reactor.h
+		Reactor_Imp.h
+		EventScheduler.h
+		Log.h
+
+and link the binary library file.
+
+Refer to the tests & samples know how to use the library.
+
+

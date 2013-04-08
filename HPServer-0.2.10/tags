@@ -1,0 +1,808 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+Accept	src/SockAcceptor.cpp	/^HL_SOCKET CSockAcceptor::Accept(CInetAddr *addr)$/;"	f	class:CSockAcceptor
+ActiveEvent	src/Reactor.cpp	/^int CReactor::ActiveEvent(DTEV_ITEM *pEvItem, short event)$/;"	f	class:CReactor
+AdjustTimer	include/MinHeap.h	/^	inline void CMinHeap::AdjustTimer(const struct timeval &tv)$/;"	f	class:hpsl::CMinHeap
+AttachHandle	include/EventHandler.h	/^		inline void AttachHandle(HL_SOCKET handle)	   $/;"	f	class:hpsl::IEventHandler
+BIN	make/Makefile	/^BIN = ..\/bin$/;"	m
+BIN	samples/Makefile	/^BIN = .\/bin$/;"	m
+BIN	test/Makefile	/^BIN = .\/bin$/;"	m
+BUF_SIZE	samples/echo-server.h	16;"	d
+BUF_SIZE	test/echo-client.h	21;"	d
+BUF_SIZE	test/echo-server.h	16;"	d
+CClientHandler	test/echo-client.h	/^	CClientHandler() : IEventHandler(false), m_active(false), m_itimeout(0), $/;"	f	class:CClientHandler
+CClientHandler	test/echo-client.h	/^class CClientHandler: public IEventHandler$/;"	c
+CClientSimulator	test/echo-client.h	/^	CClientSimulator(){}$/;"	f	class:CClientSimulator
+CClientSimulator	test/echo-client.h	/^class CClientSimulator$/;"	c
+CConnector	include/Connector.h	/^		CConnector(){}$/;"	f	class:hpsl::CConnector
+CConnector	include/Connector.h	/^	class CConnector$/;"	c	namespace:hpsl
+CDefScheduler	include/EventScheduler.h	/^		CDefScheduler(){}$/;"	f	class:hpsl::CDefScheduler
+CDefScheduler	include/EventScheduler.h	/^	class CDefScheduler : public IEventScheduler$/;"	c	namespace:hpsl
+CDemuxTable	include/linux/DemuxTable.h	/^    class CDemuxTable$/;"	c	namespace:hpsl
+CDemuxTable	include/win32/DemuxTable.h	/^        CDemuxTable(){}$/;"	f	class:hpsl::CDemuxTable
+CDemuxTable	include/win32/DemuxTable.h	/^    class CDemuxTable$/;"	c	namespace:hpsl
+CDemuxTable	src/linux/DemuxTable.cpp	/^CDemuxTable::CDemuxTable():m_iSize(0), m_iCapacity(0)$/;"	f	class:CDemuxTable
+CEchoAcceptHandler	samples/echo-server.h	/^	CEchoAcceptHandler():IEventHandler(false)$/;"	f	class:CEchoAcceptHandler
+CEchoAcceptHandler	samples/echo-server.h	/^class CEchoAcceptHandler : public IEventHandler$/;"	c
+CEchoAcceptHandler	test/echo-server.h	/^	CEchoAcceptHandler():IEventHandler(false)$/;"	f	class:CEchoAcceptHandler
+CEchoAcceptHandler	test/echo-server.h	/^class CEchoAcceptHandler : public IEventHandler$/;"	c
+CEchoHandler	samples/echo-server.h	/^	CEchoHandler() : IEventHandler(false), m_lastActive(0), $/;"	f	class:CEchoHandler
+CEchoHandler	samples/echo-server.h	/^class CEchoHandler : public IEventHandler$/;"	c
+CEchoHandler	test/echo-server.h	/^	CEchoHandler() : IEventHandler(false), m_lastActive(0), $/;"	f	class:CEchoHandler
+CEchoHandler	test/echo-server.h	/^class CEchoHandler : public IEventHandler$/;"	c
+CEchoServer	samples/echo-server.h	/^	CEchoServer(){}$/;"	f	class:CEchoServer
+CEchoServer	samples/echo-server.h	/^class CEchoServer$/;"	c
+CEchoServer	test/echo-server.h	/^	CEchoServer(){}$/;"	f	class:CEchoServer
+CEchoServer	test/echo-server.h	/^class CEchoServer$/;"	c
+CInetAddr	include/InetAddr.h	/^        CInetAddr() {memset(&_addr4, 0, sizeof(sockaddr_in));}$/;"	f	class:hpsl::CInetAddr
+CInetAddr	include/InetAddr.h	/^        CInetAddr():_ver(IP_V4) \/\/ default is IP v4 $/;"	f	class:hpsl::CInetAddr
+CInetAddr	include/InetAddr.h	/^        CInetAddr(const char *addr, u_short port, IP_VER ver) {Construct(addr, port, IP_V4);}$/;"	f	class:hpsl::CInetAddr
+CInetAddr	include/InetAddr.h	/^        CInetAddr(const char *addr, u_short port, IP_VER ver) {Construct(addr, port, ver);}$/;"	f	class:hpsl::CInetAddr
+CInetAddr	include/InetAddr.h	/^        CInetAddr(const sockaddr &addr, IP_VER ver) $/;"	f	class:hpsl::CInetAddr
+CInetAddr	include/InetAddr.h	/^        CInetAddr(const sockaddr &addr, IP_VER ver) {Construct(addr);}$/;"	f	class:hpsl::CInetAddr
+CInetAddr	include/InetAddr.h	/^    class CInetAddr$/;"	c	namespace:hpsl
+CLIENT_NUM	test/echo-client.h	15;"	d
+CLOSE_SOCKET	include/linux/SockUtil.h	40;"	d
+CLOSE_SOCKET	include/win32/SockUtil.h	33;"	d
+CList	test/echo-server.h	/^	CList()$/;"	f	class:CList
+CList	test/echo-server.h	/^class CList$/;"	c
+CLog	include/Log.h	/^		CLog(){}$/;"	f	class:hpsl::CLog
+CLog	include/Log.h	/^	class CLog$/;"	c	namespace:hpsl
+CMinHeap	include/MinHeap.h	/^ 	class CMinHeap$/;"	c	namespace:hpsl
+CMinHeap	include/MinHeap.h	/^        CMinHeap():m_pHeap(NULL), m_iSize(0), m_iCapacity(0){}$/;"	f	class:hpsl::CMinHeap
+CMonitorSignalHandler	include/InternalHandlers-Internal.h	/^        CMonitorSignalHandler(bool isSignal = false):IEventHandler(isSignal)$/;"	f	class:hpsl::CMonitorSignalHandler
+CMonitorSignalHandler	include/InternalHandlers-Internal.h	/^    class CMonitorSignalHandler: public IEventHandler$/;"	c	namespace:hpsl
+CNotifyHandler	samples/echo-server.h	/^	CNotifyHandler() : IEventHandler(false), m_pWorker(NULL)$/;"	f	class:CNotifyHandler
+CNotifyHandler	samples/echo-server.h	/^class CNotifyHandler : public IEventHandler$/;"	c
+CNotifyHandler	test/echo-server.h	/^	CNotifyHandler() : IEventHandler(false), m_pWorker(NULL)$/;"	f	class:CNotifyHandler
+CNotifyHandler	test/echo-server.h	/^class CNotifyHandler : public IEventHandler$/;"	c
+COMMON_LIBS	samples/Makefile	/^COMMON_LIBS = $(COMMON_LIB_PATH) -lHPServer$/;"	m
+COMMON_LIBS	test/Makefile	/^COMMON_LIBS = $(COMMON_LIB_PATH) -lHPServer$/;"	m
+COMMON_LIB_PATH	samples/Makefile	/^COMMON_LIB_PATH = -L. -L..\/bin$/;"	m
+COMMON_LIB_PATH	test/Makefile	/^COMMON_LIB_PATH = -L. -L..\/bin$/;"	m
+CReactor	include/Reactor.h	/^		CReactor() : m_pImp(NULL), m_pScheduler(&m_defScheduler), $/;"	f	class:hpsl::CReactor
+CReactor	include/Reactor.h	/^	class CReactor$/;"	c	namespace:hpsl
+CReactor_Epoll	include/linux/Reactor_Epoll.h	/^    class CReactor_Epoll : public IReactor_Imp$/;"	c	namespace:hpsl
+CReactor_Epoll	src/linux/Reactor_Epoll.cpp	/^CReactor_Epoll::CReactor_Epoll() : m_epollFD(-1), m_pReactor(NULL), m_pEvents(NULL)$/;"	f	class:CReactor_Epoll
+CReactor_Select	include/linux/Reactor_Select.h	/^		CReactor_Select():m_maxFds(-1),m_fdsz(0),$/;"	f	class:hpsl::CReactor_Select
+CReactor_Select	include/linux/Reactor_Select.h	/^	class CReactor_Select:public IReactor_Imp$/;"	c	namespace:hpsl
+CReactor_Select	include/win32/Reactor_Select.h	/^		CReactor_Select():m_pReactor(NULL){}$/;"	f	class:hpsl::CReactor_Select
+CReactor_Select	include/win32/Reactor_Select.h	/^	class CReactor_Select:public IReactor_Imp$/;"	c	namespace:hpsl
+CReadHandler	test/test-mul-events.cpp	/^	CReadHandler(): IEventHandler(false), m_iread(0), m_active(false){}$/;"	f	class:CReadHandler
+CReadHandler	test/test-mul-events.cpp	/^class CReadHandler : public IEventHandler$/;"	c	file:
+CReadHandler	test/test-sim-events.cpp	/^	CReadHandler(): IEventHandler(false)$/;"	f	class:CReadHandler
+CReadHandler	test/test-sim-events.cpp	/^class CReadHandler : public IEventHandler$/;"	c	file:
+CSigHandler	samples/echo-server.h	/^	CSigHandler():IEventHandler(true){}$/;"	f	class:CSigHandler
+CSigHandler	samples/echo-server.h	/^class CSigHandler : public IEventHandler$/;"	c
+CSigHandler	test/echo-server.h	/^	CSigHandler():IEventHandler(true){}$/;"	f	class:CSigHandler
+CSigHandler	test/echo-server.h	/^class CSigHandler : public IEventHandler$/;"	c
+CSigHandler	test/test-mul-events.cpp	/^	CSigHandler():IEventHandler(true), m_icatchs(0){}$/;"	f	class:CSigHandler
+CSigHandler	test/test-mul-events.cpp	/^class CSigHandler : public IEventHandler$/;"	c	file:
+CSigHandler	test/test-sim-events.cpp	/^	CSigHandler():IEventHandler(true), m_icatchs(0){}$/;"	f	class:CSigHandler
+CSigHandler	test/test-sim-events.cpp	/^class CSigHandler : public IEventHandler$/;"	c	file:
+CSigHandler	test/test-timer.cpp	/^	CSigHandler():IEventHandler(true)$/;"	f	class:CSigHandler
+CSigHandler	test/test-timer.cpp	/^class CSigHandler : public IEventHandler$/;"	c	file:
+CSignalInfo	include/SignalInfo.h	/^		CSignalInfo():m_pReactor(NULL){}$/;"	f	class:hpsl::CSignalInfo
+CSignalInfo	include/SignalInfo.h	/^	class CSignalInfo$/;"	c	namespace:hpsl
+CSignalSet	include/SignalSet.h	/^        CSignalSet(){}$/;"	f	class:hpsl::CSignalSet
+CSignalSet	include/SignalSet.h	/^    class CSignalSet$/;"	c	namespace:hpsl
+CSingalHandler	samples/signal-handler.cpp	/^    CSingalHandler():IEventHandler(true)$/;"	f	class:CSingalHandler
+CSingalHandler	samples/signal-handler.cpp	/^class CSingalHandler: public IEventHandler$/;"	c	file:
+CSockAcceptor	include/SockAcceptor.h	/^        CSockAcceptor():m_handle(INVALID_SOCKET) {}$/;"	f	class:hpsl::CSockAcceptor
+CSockAcceptor	include/SockAcceptor.h	/^    class CSockAcceptor$/;"	c	namespace:hpsl
+CSockUtil	include/linux/SockUtil.h	/^	class CSockUtil$/;"	c	namespace:hpsl
+CSockUtil	include/win32/SockUtil.h	/^	class CSockUtil$/;"	c	namespace:hpsl
+CThreadManager	samples/echo-server.cpp	/^class CThreadManager$/;"	c	file:
+CThreadManager	test/test-threads.cpp	/^class CThreadManager$/;"	c	file:
+CTimeUtil	include/TimeUtil.h	/^    class CTimeUtil$/;"	c	namespace:hpsl
+CWorker	samples/echo-server.h	/^	CWorker(){}$/;"	f	class:CWorker
+CWorker	samples/echo-server.h	/^class CWorker$/;"	c
+CWorker	test/echo-server.h	/^	CWorker(){}$/;"	f	class:CWorker
+CWorker	test/echo-server.h	/^class CWorker$/;"	c
+CWriteHandler	test/test-mul-events.cpp	/^	CWriteHandler(): IEventHandler(false), $/;"	f	class:CWriteHandler
+CWriteHandler	test/test-mul-events.cpp	/^class CWriteHandler : public IEventHandler$/;"	c	file:
+CWriteHandler	test/test-sim-events.cpp	/^	CWriteHandler(): IEventHandler(false)$/;"	f	class:CWriteHandler
+CWriteHandler	test/test-sim-events.cpp	/^class CWriteHandler : public IEventHandler$/;"	c	file:
+Close	include/SockAcceptor.h	/^        inline void Close() {CLOSE_SOCKET(m_handle);}$/;"	f	class:hpsl::CSockAcceptor
+Close	src/Log.cpp	/^void CLog::Close()$/;"	f	class:CLog
+CloseHandle	include/EventHandler.h	/^        inline void CloseHandle() {if(!IsSignalHandler()) CLOSE_SOCKET(m_handle);}$/;"	f	class:hpsl::IEventHandler
+CloseHandle	include/linux/SockUtil.h	/^		static inline int CloseHandle(HL_HANDLE h){return close(h);}$/;"	f	class:hpsl::CSockUtil
+CloseHandle	include/win32/SockUtil.h	/^		static inline int CloseHandle(HL_HANDLE h){return ::CloseHandle(h);}$/;"	f	class:hpsl::CSockUtil
+CloseSocket	include/linux/SockUtil.h	/^		static inline int CloseSocket(HL_SOCKET s){return close(s);}$/;"	f	class:hpsl::CSockUtil
+CloseSocket	include/win32/SockUtil.h	/^		static inline int CloseSocket(HL_SOCKET s){return closesocket(s);}$/;"	f	class:hpsl::CSockUtil
+Connect	include/Connector.h	/^		HL_SOCKET Connect(CInetAddr &svrAddr)$/;"	f	class:hpsl::CConnector
+Connect	include/Connector.h	/^		inline int Connect(CReactor *pReactor, HL_SOCKET handle, CInetAddr &svrAddr, struct timeval *ptv)$/;"	f	class:hpsl::CConnector
+Construct	include/InetAddr.h	/^    inline void CInetAddr::Construct(const sockaddr &addr)$/;"	f	class:hpsl::CInetAddr
+Construct	src/InetAddr.cpp	/^void CInetAddr::Construct(const char *addr, u_short port, IP_VER ver)$/;"	f	class:CInetAddr
+Construct6	include/InetAddr.h	/^    inline void CInetAddr::Construct6(const sockaddr &addr6)$/;"	f	class:hpsl::CInetAddr
+CreateSocketPair	include/linux/SockUtil.h	/^		static inline int CreateSocketPair(int family, int type, int protocol, HL_SOCKET fd[2])$/;"	f	class:hpsl::CSockUtil
+CreateSocketPair	src/win32/SockUtil.cpp	/^int CSockUtil::CreateSocketPair(int family, int type, int protocol, HL_SOCKET fd[])$/;"	f	class:CSockUtil
+DTEV_ITEM	include/EventItem.h	/^	struct DTEV_ITEM \/\/ event item structure$/;"	s	namespace:hpsl
+DecreaseRef	include/EventHandler.h	/^		inline int DecreaseRef() {return --m_ref;}$/;"	f	class:hpsl::IEventHandler
+DeleteReactorImp	include/Reactor_Imp.h	34;"	d
+DetectMonotonic	src/TimeUtil.cpp	/^void CTimeUtil::DetectMonotonic()$/;"	f	class:CTimeUtil
+Dispatch	src/linux/Reactor_Epoll.cpp	/^int CReactor_Epoll::Dispatch(struct timeval *tv)$/;"	f	class:CReactor_Epoll
+Dispatch	src/linux/Reactor_Select.cpp	/^int CReactor_Select::Dispatch(struct timeval* tv)$/;"	f	class:CReactor_Select
+Dispatch	src/win32/Reactor_Select.cpp	/^int CReactor_Select::Dispatch(timeval *tv)$/;"	f	class:CReactor_Select
+ECHO_CLIENT_H	test/echo-client.h	3;"	d
+ECHO_SERVERS_H	samples/echo-server.h	3;"	d
+ECHO_SERVERS_H	test/echo-server.h	3;"	d
+EH_MAP	include/win32/DemuxTable.h	/^    typedef std::map<HL_SOCKET, DTEV_ITEM> EH_MAP;$/;"	t	namespace:hpsl
+EH_NUM	test/test-timer.cpp	6;"	d	file:
+EH_PAIR	include/win32/DemuxTable.h	/^    typedef std::pair<HL_SOCKET, DTEV_ITEM> EH_PAIR;$/;"	t	namespace:hpsl
+ELE_SET	include/linux/DemuxTable.h	/^		struct ELE_SET$/;"	s	class:hpsl::CDemuxTable
+ELE_SET_ARRAY_NUM	include/linux/DemuxTable.h	26;"	d
+ELE_SET_SIZE	include/linux/DemuxTable.h	24;"	d
+ELE_SET_SIZE_SHIFT	include/linux/DemuxTable.h	25;"	d
+ERRNO	include/Log.h	22;"	d
+ERR_INPROGRESS	include/linux/SockUtil.h	36;"	d
+ERR_INPROGRESS	include/win32/SockUtil.h	29;"	d
+ERR_WOULDBLOCK	include/linux/SockUtil.h	35;"	d
+ERR_WOULDBLOCK	include/win32/SockUtil.h	28;"	d
+EVFLAG_INTERNAL	include/defines.h	57;"	d
+EVFLAG_TOBE_DEL	include/defines.h	58;"	d
+EVRW_SIDE	include/defines.h	/^enum EVRW_SIDE {INNER = 1, OUTER = 2};$/;"	g
+EV_READ	include/defines.h	51;"	d
+EV_SIGNAL	include/defines.h	54;"	d
+EV_TIMER	include/defines.h	53;"	d
+EV_WRITE	include/defines.h	52;"	d
+Empty	test/echo-server.h	/^	inline bool Empty()$/;"	f	class:CList
+Erase	include/MinHeap.h	/^    inline void CMinHeap::Erase(DTEV_ITEM *pEvItem)$/;"	f	class:hpsl::CMinHeap
+ErrTryAgain	include/linux/SockUtil.h	/^		static inline bool ErrTryAgain(int err)$/;"	f	class:hpsl::CSockUtil
+ErrTryAgain	include/win32/SockUtil.h	/^		static inline bool ErrTryAgain(int err)$/;"	f	class:hpsl::CSockUtil
+ExpireTimerEvents	src/Reactor.cpp	/^void CReactor::ExpireTimerEvents()$/;"	f	class:CReactor
+FD_CLOSEONEXEC	src/SignalInfo.cpp	16;"	d	file:
+FD_CLOSEONEXEC	src/SignalInfo.cpp	18;"	d	file:
+FD_CLOSEONEXEC	src/linux/Reactor_Epoll.cpp	14;"	d	file:
+Finalize	include/EventScheduler.h	/^        virtual void Finalize()   {}$/;"	f	class:hpsl::CDefScheduler
+Finalize	include/EventScheduler.h	/^        virtual void Finalize(){}$/;"	f	class:hpsl::IEventScheduler
+Finalize	include/MinHeap.h	/^    inline void CMinHeap::Finalize()$/;"	f	class:hpsl::CMinHeap
+Finalize	include/SignalSet.h	/^        void Finalize(){m_mapHandlers.clear();}$/;"	f	class:hpsl::CSignalSet
+Finalize	include/win32/DemuxTable.h	/^    void CDemuxTable::Finalize()$/;"	f	class:hpsl::CDemuxTable
+Finalize	src/Reactor.cpp	/^int CReactor::Finalize()$/;"	f	class:CReactor
+Finalize	src/SignalInfo.cpp	/^int CSignalInfo::Finalize()$/;"	f	class:CSignalInfo
+Finalize	src/linux/DemuxTable.cpp	/^void CDemuxTable::Finalize()$/;"	f	class:CDemuxTable
+Finalize	src/linux/Reactor_Epoll.cpp	/^int CReactor_Epoll::Finalize()$/;"	f	class:CReactor_Epoll
+Finalize	src/linux/Reactor_Select.cpp	/^int CReactor_Select::Finalize()$/;"	f	class:CReactor_Select
+Finalize	src/win32/Reactor_Select.cpp	/^int CReactor_Select::Finalize()$/;"	f	class:CReactor_Select
+GetAF	include/InetAddr.h	/^        inline int GetAF() {return IP_V4;}$/;"	f	class:hpsl::CInetAddr
+GetAF	include/InetAddr.h	/^        inline int GetAF() {return _ver;}$/;"	f	class:hpsl::CInetAddr
+GetAddr	include/InetAddr.h	/^        inline sockaddr *GetAddr() {return (sockaddr*)(&_addr4);}$/;"	f	class:hpsl::CInetAddr
+GetAddr	include/InetAddr.h	/^    inline sockaddr* CInetAddr::GetAddr()$/;"	f	class:hpsl::CInetAddr
+GetAt	include/SignalSet.h	/^    inline DTEV_ITEM *CSignalSet::GetAt(IEventHandler* pHandler)$/;"	f	class:hpsl::CSignalSet
+GetAt	include/linux/DemuxTable.h	/^	inline DTEV_ITEM *CDemuxTable::GetAt(HL_SOCKET handle) $/;"	f	class:hpsl::CDemuxTable
+GetAt	include/win32/DemuxTable.h	/^    inline DTEV_ITEM *CDemuxTable::GetAt(HL_SOCKET handle)$/;"	f	class:hpsl::CDemuxTable
+GetCapacity	include/MinHeap.h	/^        inline int  GetCapacity() {return m_iCapacity;}$/;"	f	class:hpsl::CMinHeap
+GetCapacity	include/linux/DemuxTable.h	/^		inline size_t GetCapacity() {return m_iCapacity;}$/;"	f	class:hpsl::CDemuxTable
+GetCapacity	include/win32/DemuxTable.h	/^        inline size_t GetCapacity() {return m_mapHandlers.max_size();}$/;"	f	class:hpsl::CDemuxTable
+GetEvents	src/Reactor.cpp	/^int CReactor::GetEvents(HL_SOCKET handle, short &event, short &evActive)$/;"	f	class:CReactor
+GetEvents	src/Reactor.cpp	/^int CReactor::GetEvents(IEventHandler *pHandler, short &event, short &evActive)$/;"	f	class:CReactor
+GetFirst	include/SignalSet.h	/^    inline DTEV_ITEM *CSignalSet::GetFirst()$/;"	f	class:hpsl::CSignalSet
+GetFirst	include/linux/DemuxTable.h	/^	inline DTEV_ITEM *CDemuxTable::GetFirst() $/;"	f	class:hpsl::CDemuxTable
+GetFirst	include/win32/DemuxTable.h	/^    inline DTEV_ITEM *CDemuxTable::GetFirst()$/;"	f	class:hpsl::CDemuxTable
+GetHandle	include/EventHandler.h	/^		inline HL_SOCKET GetHandle() 		{return m_handle;}$/;"	f	class:hpsl::IEventHandler
+GetHandle	include/SockAcceptor.h	/^        HL_SOCKET GetHandle() {return m_handle;}$/;"	f	class:hpsl::CSockAcceptor
+GetHandlerNumber	src/Reactor.cpp	/^size_t CReactor::GetHandlerNumber()$/;"	f	class:CReactor
+GetLevelString	src/Log.cpp	/^const char* CLog::GetLevelString(LOG_LEVEL level)$/;"	f	class:CLog
+GetLogFile	include/Log.h	/^		static inline void GetLogFile(string &file) {file = m_strLogFile;}$/;"	f	class:hpsl::CLog
+GetLogLevel	include/Log.h	/^		static inline int  GetLogLevel() {return m_level;}$/;"	f	class:hpsl::CLog
+GetMethod	include/Reactor.h	/^		inline const tchar *GetMethod() {return m_pImp->GetMethod();}$/;"	f	class:hpsl::CReactor
+GetMethod	include/linux/Reactor_Epoll.h	/^		virtual const tchar *GetMethod() {return TEXT("Epoll");}$/;"	f	class:hpsl::CReactor_Epoll
+GetMethod	include/linux/Reactor_Select.h	/^		virtual const tchar *GetMethod(){return TEXT("select");} $/;"	f	class:hpsl::CReactor_Select
+GetMethod	include/win32/Reactor_Select.h	/^		virtual const tchar* GetMethod(){return TEXT("select");}$/;"	f	class:hpsl::CReactor_Select
+GetNext	include/SignalSet.h	/^    inline DTEV_ITEM *CSignalSet::GetNext()$/;"	f	class:hpsl::CSignalSet
+GetNext	include/linux/DemuxTable.h	/^	inline DTEV_ITEM *CDemuxTable::GetNext() $/;"	f	class:hpsl::CDemuxTable
+GetNext	include/win32/DemuxTable.h	/^    inline DTEV_ITEM *CDemuxTable::GetNext()$/;"	f	class:hpsl::CDemuxTable
+GetPort	include/InetAddr.h	/^        inline u_short GetPort() {return _addr4.sin_port;}$/;"	f	class:hpsl::CInetAddr
+GetPort	include/InetAddr.h	/^    inline u_short CInetAddr::GetPort()$/;"	f	class:hpsl::CInetAddr
+GetPriority	include/EventHandler.h	/^        inline short     GetPriority()      {return m_priority;}$/;"	f	class:hpsl::IEventHandler
+GetRecvHandle	include/SignalInfo.h	/^		inline HL_SOCKET GetRecvHandle() {return m_socketPair[1];}$/;"	f	class:hpsl::CSignalInfo
+GetSendHandle	include/SignalInfo.h	/^		inline HL_SOCKET GetSendHandle() {return m_socketPair[0];}$/;"	f	class:hpsl::CSignalInfo
+GetSigInfo	src/Reactor.cpp	/^CSignalInfo* CReactor::GetSigInfo()$/;"	f	class:CReactor
+GetSize	include/MinHeap.h	/^        inline int  GetSize()     {return m_iSize;} \/\/ get current used size$/;"	f	class:hpsl::CMinHeap
+GetSize	include/SignalSet.h	/^        inline size_t GetSize() {return m_mapHandlers.size();}$/;"	f	class:hpsl::CSignalSet
+GetSize	include/linux/DemuxTable.h	/^		inline size_t GetSize()     {return m_iSize;}$/;"	f	class:hpsl::CDemuxTable
+GetSize	include/win32/DemuxTable.h	/^        inline size_t GetSize() {return (int)m_mapHandlers.size();}$/;"	f	class:hpsl::CDemuxTable
+GetSysTime	src/TimeUtil.cpp	/^int CTimeUtil::GetSysTime(struct timeval *ptv)$/;"	f	class:CTimeUtil
+HAVE_CLOCK_GETTIME	include/HP_Config.h	10;"	d
+HL_HANDLE	include/defines.h	/^typedef HANDLE HL_HANDLE;$/;"	t
+HL_HANDLE	include/defines.h	/^typedef int HL_HANDLE;$/;"	t
+HL_SOCKET	include/defines.h	/^typedef SOCKET HL_SOCKET;$/;"	t
+HL_SOCKET	include/defines.h	/^typedef int HL_SOCKET; $/;"	t
+HL_SOCK_LEN_T	include/defines.h	/^typedef int HL_SOCK_LEN_T;$/;"	t
+HL_SOCK_LEN_T	include/defines.h	42;"	d
+Handle2EventHandler	src/Reactor.cpp	/^IEventHandler* CReactor::Handle2EventHandler(HL_SOCKET handle)$/;"	f	class:CReactor
+HandleClose	include/InternalHandlers-Internal.h	/^        virtual void HandleClose()$/;"	f	class:hpsl::CMonitorSignalHandler
+HandleClose	samples/echo-server.h	/^	virtual void HandleClose(){CloseHandle(); delete this;}$/;"	f	class:CEchoHandler
+HandleClose	samples/echo-server.h	/^	virtual void HandleClose(){CloseHandle();}$/;"	f	class:CEchoAcceptHandler
+HandleClose	samples/echo-server.h	/^	virtual void HandleClose(){delete this;}$/;"	f	class:CSigHandler
+HandleClose	samples/echo-server.h	/^    virtual void HandleClose()$/;"	f	class:CNotifyHandler
+HandleClose	samples/signal-handler.cpp	/^	virtual void HandleClose(){delete this;}$/;"	f	class:CSingalHandler
+HandleClose	test/echo-client.h	/^	virtual void HandleClose(){CloseHandle();}$/;"	f	class:CClientHandler
+HandleClose	test/echo-server.h	/^	virtual void HandleClose(){CloseHandle(); delete this;}$/;"	f	class:CEchoHandler
+HandleClose	test/echo-server.h	/^	virtual void HandleClose(){CloseHandle();}$/;"	f	class:CEchoAcceptHandler
+HandleClose	test/echo-server.h	/^	virtual void HandleClose(){delete this;}$/;"	f	class:CSigHandler
+HandleClose	test/echo-server.h	/^    virtual void HandleClose()$/;"	f	class:CNotifyHandler
+HandleClose	test/test-mul-events.cpp	/^	virtual void HandleClose(){CloseHandle(); m_active = true; m_iread = 0;}$/;"	f	class:CReadHandler
+HandleClose	test/test-mul-events.cpp	/^	virtual void HandleClose(){CloseHandle(); m_active = true; m_isend = 0;}$/;"	f	class:CWriteHandler
+HandleClose	test/test-mul-events.cpp	/^	virtual void HandleClose(){delete this;}$/;"	f	class:CSigHandler
+HandleClose	test/test-sim-events.cpp	/^	virtual void HandleClose(){CloseHandle(); m_willwrite = 0;}$/;"	f	class:CWriteHandler
+HandleClose	test/test-sim-events.cpp	/^	virtual void HandleClose(){CloseHandle();}$/;"	f	class:CReadHandler
+HandleClose	test/test-sim-events.cpp	/^	virtual void HandleClose(){delete this;}$/;"	f	class:CSigHandler
+HandleClose	test/test-timer.cpp	/^	virtual void HandleClose(){delete this;}$/;"	f	class:CSigHandler
+HandleConnectSvrSuccess	include/EventHandler.h	/^        virtual void HandleConnectSvrSuccess(HL_SOCKET handle){}$/;"	f	class:hpsl::IEventHandler
+HandleConnectSvrSuccess	test/echo-client.h	/^	virtual void HandleConnectSvrSuccess()$/;"	f	class:CClientHandler
+HandleExit	include/InternalHandlers-Internal.h	/^		virtual void HandleExit() {delete this;}$/;"	f	class:hpsl::CMonitorSignalHandler
+HandleExit	samples/echo-server.h	/^	virtual void HandleExit() {CloseHandle(); delete this;}$/;"	f	class:CEchoHandler
+HandleExit	samples/echo-server.h	/^	virtual void HandleExit() {CloseHandle();}$/;"	f	class:CEchoAcceptHandler
+HandleExit	samples/echo-server.h	/^	virtual void HandleExit() {delete this;}$/;"	f	class:CSigHandler
+HandleExit	samples/echo-server.h	/^    virtual void HandleExit()$/;"	f	class:CNotifyHandler
+HandleExit	samples/signal-handler.cpp	/^	virtual void HandleExit() {delete this;}$/;"	f	class:CSingalHandler
+HandleExit	test/echo-client.h	/^	virtual void HandleExit() {CloseHandle();}$/;"	f	class:CClientHandler
+HandleExit	test/echo-server.h	/^	virtual void HandleExit() {CloseHandle(); delete this;}$/;"	f	class:CEchoHandler
+HandleExit	test/echo-server.h	/^	virtual void HandleExit() {CloseHandle();}$/;"	f	class:CEchoAcceptHandler
+HandleExit	test/echo-server.h	/^	virtual void HandleExit() {delete this;}$/;"	f	class:CSigHandler
+HandleExit	test/echo-server.h	/^    virtual void HandleExit()$/;"	f	class:CNotifyHandler
+HandleExit	test/test-mul-events.cpp	/^	virtual void HandleExit() $/;"	f	class:CReadHandler
+HandleExit	test/test-mul-events.cpp	/^	virtual void HandleExit() {CloseHandle(); m_active = true; m_isend = 0;}$/;"	f	class:CWriteHandler
+HandleExit	test/test-mul-events.cpp	/^	virtual void HandleExit() {delete this;}$/;"	f	class:CSigHandler
+HandleExit	test/test-sim-events.cpp	/^	virtual void HandleExit() $/;"	f	class:CReadHandler
+HandleExit	test/test-sim-events.cpp	/^	virtual void HandleExit() {delete this;}$/;"	f	class:CSigHandler
+HandleExit	test/test-sim-events.cpp	/^	virtual void HandleExit()$/;"	f	class:CWriteHandler
+HandleExit	test/test-timer.cpp	/^	virtual void HandleExit(){delete this;}$/;"	f	class:CSigHandler
+HandleRead	include/InternalHandlers-Internal.h	/^        virtual void HandleRead(HL_SOCKET handle)$/;"	f	class:hpsl::CMonitorSignalHandler
+HandleRead	samples/echo-server.h	/^	virtual void HandleRead(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+HandleRead	samples/echo-server.h	/^    virtual void HandleRead(HL_SOCKET handle)$/;"	f	class:CEchoAcceptHandler
+HandleRead	samples/echo-server.h	/^    virtual void HandleRead(HL_SOCKET handle)$/;"	f	class:CEchoHandler
+HandleRead	samples/echo-server.h	/^void CNotifyHandler::HandleRead(HL_SOCKET handle)$/;"	f	class:CNotifyHandler
+HandleRead	samples/signal-handler.cpp	/^    virtual void HandleRead(HL_SOCKET handle){}$/;"	f	class:CSingalHandler
+HandleRead	test/echo-client.h	/^	virtual void HandleRead(HL_SOCKET handle)$/;"	f	class:CClientHandler
+HandleRead	test/echo-server.h	/^	virtual void HandleRead(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+HandleRead	test/echo-server.h	/^    virtual void HandleRead(HL_SOCKET handle)$/;"	f	class:CEchoAcceptHandler
+HandleRead	test/echo-server.h	/^    virtual void HandleRead(HL_SOCKET handle)$/;"	f	class:CEchoHandler
+HandleRead	test/echo-server.h	/^void CNotifyHandler::HandleRead(HL_SOCKET handle)$/;"	f	class:CNotifyHandler
+HandleRead	test/test-mul-events.cpp	/^	virtual void HandleRead(HL_SOCKET handle)$/;"	f	class:CReadHandler
+HandleRead	test/test-mul-events.cpp	/^	virtual void HandleRead(HL_SOCKET handle)$/;"	f	class:CWriteHandler
+HandleRead	test/test-mul-events.cpp	/^	virtual void HandleRead(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+HandleRead	test/test-sim-events.cpp	/^	virtual void HandleRead(HL_SOCKET handle)$/;"	f	class:CReadHandler
+HandleRead	test/test-sim-events.cpp	/^	virtual void HandleRead(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+HandleRead	test/test-sim-events.cpp	/^	virtual void HandleRead(HL_SOCKET handle){}$/;"	f	class:CWriteHandler
+HandleRead	test/test-timer.cpp	/^	virtual void HandleRead(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+HandleSignal	include/InternalHandlers-Internal.h	/^        virtual void HandleSignal(){}$/;"	f	class:hpsl::CMonitorSignalHandler
+HandleSignal	samples/echo-server.h	/^	virtual void HandleSignal()$/;"	f	class:CSigHandler
+HandleSignal	samples/echo-server.h	/^    virtual void HandleSignal(){}$/;"	f	class:CEchoAcceptHandler
+HandleSignal	samples/echo-server.h	/^    virtual void HandleSignal(){}$/;"	f	class:CEchoHandler
+HandleSignal	samples/echo-server.h	/^    virtual void HandleSignal(){}$/;"	f	class:CNotifyHandler
+HandleSignal	samples/signal-handler.cpp	/^void CSingalHandler::HandleSignal()$/;"	f	class:CSingalHandler
+HandleSignal	test/echo-client.h	/^	virtual void HandleSignal(){}$/;"	f	class:CClientHandler
+HandleSignal	test/echo-server.h	/^	virtual void HandleSignal()$/;"	f	class:CSigHandler
+HandleSignal	test/echo-server.h	/^    virtual void HandleSignal(){}$/;"	f	class:CEchoAcceptHandler
+HandleSignal	test/echo-server.h	/^    virtual void HandleSignal(){}$/;"	f	class:CEchoHandler
+HandleSignal	test/echo-server.h	/^    virtual void HandleSignal(){}$/;"	f	class:CNotifyHandler
+HandleSignal	test/test-mul-events.cpp	/^	virtual void HandleSignal()$/;"	f	class:CSigHandler
+HandleSignal	test/test-mul-events.cpp	/^	virtual void HandleSignal(){}$/;"	f	class:CReadHandler
+HandleSignal	test/test-mul-events.cpp	/^	virtual void HandleSignal(){}$/;"	f	class:CWriteHandler
+HandleSignal	test/test-sim-events.cpp	/^	virtual void HandleSignal()$/;"	f	class:CSigHandler
+HandleSignal	test/test-sim-events.cpp	/^	virtual void HandleSignal(){}$/;"	f	class:CReadHandler
+HandleSignal	test/test-sim-events.cpp	/^	virtual void HandleSignal(){}$/;"	f	class:CWriteHandler
+HandleSignal	test/test-timer.cpp	/^	virtual void HandleSignal(){}$/;"	f	class:CSigHandler
+HandleTimer	include/InternalHandlers-Internal.h	/^        virtual void HandleTimer(){}$/;"	f	class:hpsl::CMonitorSignalHandler
+HandleTimer	samples/echo-server.h	/^	virtual void HandleTimer()$/;"	f	class:CSigHandler
+HandleTimer	samples/echo-server.h	/^    virtual void HandleTimer()$/;"	f	class:CEchoHandler
+HandleTimer	samples/echo-server.h	/^    virtual void HandleTimer(){}$/;"	f	class:CEchoAcceptHandler
+HandleTimer	samples/echo-server.h	/^    virtual void HandleTimer(){}$/;"	f	class:CNotifyHandler
+HandleTimer	samples/signal-handler.cpp	/^    virtual void HandleTimer(){}$/;"	f	class:CSingalHandler
+HandleTimer	test/echo-client.h	/^	virtual void HandleTimer()$/;"	f	class:CClientHandler
+HandleTimer	test/echo-server.h	/^	virtual void HandleTimer()$/;"	f	class:CSigHandler
+HandleTimer	test/echo-server.h	/^    virtual void HandleTimer()$/;"	f	class:CEchoHandler
+HandleTimer	test/echo-server.h	/^    virtual void HandleTimer(){}$/;"	f	class:CEchoAcceptHandler
+HandleTimer	test/echo-server.h	/^    virtual void HandleTimer(){}$/;"	f	class:CNotifyHandler
+HandleTimer	test/test-mul-events.cpp	/^	virtual void HandleTimer()$/;"	f	class:CReadHandler
+HandleTimer	test/test-mul-events.cpp	/^	virtual void HandleTimer()$/;"	f	class:CSigHandler
+HandleTimer	test/test-mul-events.cpp	/^	virtual void HandleTimer()$/;"	f	class:CWriteHandler
+HandleTimer	test/test-sim-events.cpp	/^	virtual void HandleTimer()$/;"	f	class:CReadHandler
+HandleTimer	test/test-sim-events.cpp	/^	virtual void HandleTimer()$/;"	f	class:CSigHandler
+HandleTimer	test/test-sim-events.cpp	/^	virtual void HandleTimer()$/;"	f	class:CWriteHandler
+HandleTimer	test/test-timer.cpp	/^	virtual void HandleTimer()$/;"	f	class:CSigHandler
+HandleWrite	include/InternalHandlers-Internal.h	/^        virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:hpsl::CMonitorSignalHandler
+HandleWrite	samples/echo-server.h	/^	virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+HandleWrite	samples/echo-server.h	/^    virtual void HandleWrite(HL_SOCKET handle)$/;"	f	class:CEchoHandler
+HandleWrite	samples/echo-server.h	/^    virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CEchoAcceptHandler
+HandleWrite	samples/echo-server.h	/^    virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CNotifyHandler
+HandleWrite	samples/signal-handler.cpp	/^    virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CSingalHandler
+HandleWrite	test/echo-client.h	/^	virtual void HandleWrite(HL_SOCKET handle)$/;"	f	class:CClientHandler
+HandleWrite	test/echo-server.h	/^	virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+HandleWrite	test/echo-server.h	/^    virtual void HandleWrite(HL_SOCKET handle)$/;"	f	class:CEchoHandler
+HandleWrite	test/echo-server.h	/^    virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CEchoAcceptHandler
+HandleWrite	test/echo-server.h	/^    virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CNotifyHandler
+HandleWrite	test/test-mul-events.cpp	/^	virtual void HandleWrite(HL_SOCKET handle)$/;"	f	class:CWriteHandler
+HandleWrite	test/test-mul-events.cpp	/^	virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CReadHandler
+HandleWrite	test/test-mul-events.cpp	/^	virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+HandleWrite	test/test-sim-events.cpp	/^	virtual void HandleWrite(HL_SOCKET handle)$/;"	f	class:CWriteHandler
+HandleWrite	test/test-sim-events.cpp	/^	virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CReadHandler
+HandleWrite	test/test-sim-events.cpp	/^	virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+HandleWrite	test/test-timer.cpp	/^	virtual void HandleWrite(HL_SOCKET handle){}$/;"	f	class:CSigHandler
+IEventHandler	include/EventHandler.h	/^		IEventHandler(bool isSignal = false):m_pReactor(NULL), $/;"	f	class:hpsl::IEventHandler
+IEventHandler	include/EventHandler.h	/^	class IEventHandler$/;"	c	namespace:hpsl
+IEventScheduler	include/EventScheduler.h	/^		IEventScheduler() : m_pReactor(NULL){}$/;"	f	class:hpsl::IEventScheduler
+IEventScheduler	include/EventScheduler.h	/^	class IEventScheduler$/;"	c	namespace:hpsl
+INADDR_ANY6	include/linux/SockUtil.h	15;"	d
+INADDR_ANY6	include/win32/SockUtil.h	15;"	d
+INC	make/Makefile	/^INC = -I. -I..\/include -I..\/include\/linux$/;"	m
+INC	samples/Makefile	/^INC = -I. -I..\/include -I..\/include\/linux$/;"	m
+INC	test/Makefile	/^INC = -I. -I..\/include -I..\/include\/linux$/;"	m
+INNER	include/defines.h	/^enum EVRW_SIDE {INNER = 1, OUTER = 2};$/;"	e	enum:EVRW_SIDE
+INSTALL_DIR	make/Makefile	/^INSTALL_DIR = ..\/HPServer$/;"	m
+INSTALL_DIR_BIN	make/Makefile	/^INSTALL_DIR_BIN = ..\/HPServer\/bin$/;"	m
+INSTALL_DIR_INC	make/Makefile	/^INSTALL_DIR_INC = ..\/HPServer\/include$/;"	m
+INSTALL_DIR_LIB	make/Makefile	/^INSTALL_DIR_LIB = ..\/HPServer\/lib$/;"	m
+INVALID_HANDLE	include/defines.h	35;"	d
+INVALID_HANDLE	include/defines.h	45;"	d
+INVALID_SOCKET	include/defines.h	44;"	d
+IP_V4	include/InetAddr.h	/^        IP_V4 = AF_INET, $/;"	e	enum:hpsl::IP_VER
+IP_V6	include/InetAddr.h	/^        IP_V6 = AF_INET6,$/;"	e	enum:hpsl::IP_VER
+IP_VER	include/InetAddr.h	/^    enum IP_VER{$/;"	g	namespace:hpsl
+IReactor_Imp	include/Reactor_Imp.h	/^        IReactor_Imp(){}$/;"	f	class:hpsl::IReactor_Imp
+IReactor_Imp	include/Reactor_Imp.h	/^    class IReactor_Imp$/;"	c	namespace:hpsl
+IncreaseRef	include/EventHandler.h	/^		inline int IncreaseRef() {return ++m_ref;}$/;"	f	class:hpsl::IEventHandler
+Initialize	include/EventScheduler.h	/^		virtual int  Initialize(CReactor *pReactor) {m_pReactor = pReactor; return 0;}$/;"	f	class:hpsl::IEventScheduler
+Initialize	include/EventScheduler.h	/^        virtual int  Initialize(CReactor *pReactor) {return IEventScheduler::Initialize(pReactor);}$/;"	f	class:hpsl::CDefScheduler
+Initialize	include/MinHeap.h	/^        inline int  Initialize() {return Reserve(1024);} \/\/ default reserve 1024$/;"	f	class:hpsl::CMinHeap
+Initialize	include/SignalSet.h	/^        int  Initialize(){m_mapHandlers.clear(); return 0;}$/;"	f	class:hpsl::CSignalSet
+Initialize	include/win32/DemuxTable.h	/^    int CDemuxTable::Initialize()$/;"	f	class:hpsl::CDemuxTable
+Initialize	samples/echo-server.h	/^	int Initialize(CInetAddr &addr)$/;"	f	class:CEchoServer
+Initialize	samples/echo-server.h	/^	int Initialize(IReactor_Imp* pImp)$/;"	f	class:CWorker
+Initialize	src/Reactor.cpp	/^int CReactor::Initialize(IReactor_Imp *pImp)$/;"	f	class:CReactor
+Initialize	src/SignalInfo.cpp	/^int CSignalInfo::Initialize(CReactor* pReactor)$/;"	f	class:CSignalInfo
+Initialize	src/linux/DemuxTable.cpp	/^int CDemuxTable::Initialize()$/;"	f	class:CDemuxTable
+Initialize	src/linux/Reactor_Epoll.cpp	/^int CReactor_Epoll::Initialize(CReactor *pReactor)$/;"	f	class:CReactor_Epoll
+Initialize	src/linux/Reactor_Select.cpp	/^int CReactor_Select::Initialize(CReactor *pReactor)$/;"	f	class:CReactor_Select
+Initialize	src/win32/Reactor_Select.cpp	/^int CReactor_Select::Initialize(CReactor *pReactor)$/;"	f	class:CReactor_Select
+Initialize	test/echo-client.h	/^	int Initialize(short port)$/;"	f	class:CClientSimulator
+Initialize	test/echo-server.h	/^	int Initialize(CInetAddr &addr)$/;"	f	class:CEchoServer
+Initialize	test/echo-server.h	/^	int Initialize(IReactor_Imp* pImp)$/;"	f	class:CWorker
+Initialize	test/echo-server.h	/^    int Initialize()$/;"	f	class:CNotifyHandler
+Insert	include/SignalSet.h	/^    inline int CSignalSet::Insert(IEventHandler *pHandler)$/;"	f	class:hpsl::CSignalSet
+Insert	include/linux/DemuxTable.h	/^    inline int CDemuxTable::Insert(HL_SOCKET handle, const void *pHandler)$/;"	f	class:hpsl::CDemuxTable
+Insert	include/win32/DemuxTable.h	/^    inline int CDemuxTable::Insert(HL_SOCKET handle, const void *pHandler)$/;"	f	class:hpsl::CDemuxTable
+IoIsPending	include/linux/SockUtil.h	/^		static inline bool IoIsPending(int err)$/;"	f	class:hpsl::CSockUtil
+IoIsPending	include/win32/SockUtil.h	/^		static inline bool IoIsPending(int err)$/;"	f	class:hpsl::CSockUtil
+IsEmpty	include/MinHeap.h	/^        inline bool IsEmpty()     {return (m_iSize==0);}$/;"	f	class:hpsl::CMinHeap
+IsMonotonicTime	include/TimeUtil.h	/^		static inline bool IsMonotonicTime() {return m_bMonotonicTime;}$/;"	f	class:hpsl::CTimeUtil
+IsRunning	include/Reactor.h	/^		inline bool IsRunning() {return m_bRunning;}$/;"	f	class:hpsl::CReactor
+IsSignalHandler	include/EventHandler.h	/^		inline bool IsSignalHandler() {return m_isSignal;}$/;"	f	class:hpsl::IEventHandler
+LIB_CPP	samples/Makefile	/^LIB_CPP   = -L. -lstdc++ -lrt -lpthread$/;"	m
+LIB_CPP	test/Makefile	/^LIB_CPP   = -L. -lstdc++ -lrt -lpthread$/;"	m
+LL_DEBUG	include/Log.h	/^		LL_DEBUG,  \/\/ for debug$/;"	e	enum:hpsl::LOG_LEVEL
+LL_DETAIL	include/Log.h	/^		LL_DETAIL, \/\/ most detail$/;"	e	enum:hpsl::LOG_LEVEL
+LL_ERROR	include/Log.h	/^		LL_ERROR, \/\/ it's an error$/;"	e	enum:hpsl::LOG_LEVEL
+LL_NORMAL	include/Log.h	/^		LL_NORMAL, \/\/ normal information$/;"	e	enum:hpsl::LOG_LEVEL
+LL_WARN	include/Log.h	/^		LL_WARN,  \/\/ it's a warning, but doesn't affect running$/;"	e	enum:hpsl::LOG_LEVEL
+LOG_LEVEL	include/Log.h	/^	enum LOG_LEVEL$/;"	g	namespace:hpsl
+LOOP_INFINITE	include/Reactor.h	27;"	d
+Log	src/Log.cpp	/^void CLog::Log(LOG_LEVEL level, const char *file, int line, int error, char *fmt, ...)$/;"	f	class:CLog
+Log	src/Log.cpp	/^void CLog::Log(LOG_LEVEL level, int error, char *fmt, ...)$/;"	f	class:CLog
+MAX_EPOLL_TIMEOUT_MSEC	src/linux/Reactor_Epoll.cpp	25;"	d	file:
+MAX_EV_PRIORITY	include/defines.h	61;"	d
+MAX_NEVENTS	src/linux/Reactor_Epoll.cpp	11;"	d	file:
+NewReactorImp	src/Reactor_Imp.cpp	/^    IReactor_Imp *NewReactorImp(int type)$/;"	f	namespace:hpsl
+NotifyNewConnection	samples/echo-server.h	/^	inline int NotifyNewConnection(HL_SOCKET fd)$/;"	f	class:CWorker
+NotifyNewConnection	test/echo-server.h	/^	inline int NotifyNewConnection(HL_SOCKET fd)$/;"	f	class:CWorker
+OBJ	make/Makefile	/^OBJ = $(addprefix $(BIN)\/, \\$/;"	m
+OBJ_ECHO	samples/Makefile	/^OBJ_ECHO = $(addprefix $(BIN)\/, \\$/;"	m
+OBJ_SIGNAL	samples/Makefile	/^OBJ_SIGNAL = $(addprefix $(BIN)\/, \\$/;"	m
+OBJ_TEST_INIT	test/Makefile	/^OBJ_TEST_INIT = $(addprefix $(BIN)\/, \\$/;"	m
+OBJ_TEST_MUL	test/Makefile	/^OBJ_TEST_MUL = $(addprefix $(BIN)\/, \\$/;"	m
+OBJ_TEST_SIM	test/Makefile	/^OBJ_TEST_SIM = $(addprefix $(BIN)\/, \\$/;"	m
+OBJ_TEST_THREADS	test/Makefile	/^OBJ_TEST_THREADS = $(addprefix $(BIN)\/, \\$/;"	m
+OBJ_TEST_TIMER	test/Makefile	/^OBJ_TEST_TIMER = $(addprefix $(BIN)\/, \\$/;"	m
+OUTER	include/defines.h	/^enum EVRW_SIDE {INNER = 1, OUTER = 2};$/;"	e	enum:EVRW_SIDE
+OnNotify	samples/echo-server.h	/^	inline void OnNotify()$/;"	f	class:CWorker
+OnNotify	test/echo-server.h	/^	inline void OnNotify()$/;"	f	class:CWorker
+Open	samples/echo-server.h	/^    inline int Open(CSockAcceptor *pAcceptor)$/;"	f	class:CEchoAcceptHandler
+Open	src/SockAcceptor.cpp	/^HL_SOCKET CSockAcceptor::Open(const CInetAddr &addr)$/;"	f	class:CSockAcceptor
+Open	test/echo-server.h	/^    inline int Open(CSockAcceptor *pAcceptor)$/;"	f	class:CEchoAcceptHandler
+PAIR_NUM	test/test-mul-events.cpp	8;"	d	file:
+PAIR_NUM	test/test-sim-events.cpp	8;"	d	file:
+Pop	include/MinHeap.h	/^    inline DTEV_ITEM *CMinHeap::Pop()$/;"	f	class:hpsl::CMinHeap
+PopFront	test/echo-server.h	/^	inline bool PopFront(T &t)$/;"	f	class:CList
+ProcessSignal	src/SignalInfo.cpp	/^int CSignalInfo::ProcessSignal()$/;"	f	class:CSignalInfo
+ProcessSignals	src/Reactor.cpp	/^int CReactor::ProcessSignals() $/;"	f	class:CReactor
+Push	include/MinHeap.h	/^    inline int CMinHeap::Push(DTEV_ITEM *pEvItem)$/;"	f	class:hpsl::CMinHeap
+PushBack	test/echo-server.h	/^	inline void PushBack(const T &t)$/;"	f	class:CList
+REACTOR_SELECT	include/Reactor_Imp.h	/^    REACTOR_SELECT = 1, $/;"	e	enum:REACTOR_TYPE
+REACTOR_TYPE	include/Reactor_Imp.h	/^enum REACTOR_TYPE{$/;"	g
+RegisterEvent	include/Reactor.h	/^	inline int CReactor::RegisterEvent(IEventHandler* pHandler, short event)$/;"	f	class:hpsl::CReactor
+RegisterEvent	src/Reactor.cpp	/^int CReactor::RegisterEvent(HL_SOCKET handle, short event)$/;"	f	class:CReactor
+RegisterEvent	src/linux/Reactor_Epoll.cpp	/^int CReactor_Epoll::RegisterEvent(const DTEV_ITEM *pEvItem, short event)$/;"	f	class:CReactor_Epoll
+RegisterEvent	src/linux/Reactor_Select.cpp	/^int CReactor_Select::RegisterEvent(const DTEV_ITEM* pEvItem, short event)$/;"	f	class:CReactor_Select
+RegisterEvent	src/win32/Reactor_Select.cpp	/^int CReactor_Select::RegisterEvent(const DTEV_ITEM *pEvItem, short event)$/;"	f	class:CReactor_Select
+RegisterHandler	include/Reactor.h	/^	inline int CReactor::RegisterHandler(IEventHandler *pHandler)$/;"	f	class:hpsl::CReactor
+RegisterHandler	src/Reactor.cpp	/^int CReactor::RegisterHandler(HL_SOCKET handle, IEventHandler *pHandler)$/;"	f	class:CReactor
+RegisterSignalEvent	src/SignalInfo.cpp	/^int CSignalInfo::RegisterSignalEvent(const DTEV_ITEM* pEvItem)$/;"	f	class:CSignalInfo
+RegisterTimer	src/Reactor.cpp	/^int CReactor::RegisterTimer(IEventHandler *pHandler, struct timeval *ptv)$/;"	f	class:CReactor
+Remove	include/SignalSet.h	/^    inline void CSignalSet::Remove(IEventHandler* pHandler)$/;"	f	class:hpsl::CSignalSet
+Remove	include/linux/DemuxTable.h	/^	inline int CDemuxTable::Remove(HL_SOCKET handle)$/;"	f	class:hpsl::CDemuxTable
+Remove	include/win32/DemuxTable.h	/^    inline int CDemuxTable::Remove(HL_SOCKET handle)$/;"	f	class:hpsl::CDemuxTable
+RemoveHandler	include/Reactor.h	/^	inline int CReactor::RemoveHandler(IEventHandler* pHandler)$/;"	f	class:hpsl::CReactor
+RemoveHandler	src/Reactor.cpp	/^int CReactor::RemoveHandler(HL_SOCKET handle)$/;"	f	class:CReactor
+Reserve	include/MinHeap.h	/^    inline int CMinHeap::Reserve(int capacity)$/;"	f	class:hpsl::CMinHeap
+ResetHandle	include/EventHandler.h	/^		inline void ResetHandle() {m_handle = INVALID_SOCKET;}$/;"	f	class:hpsl::IEventHandler
+RunForever	samples/echo-server.h	/^	int RunForever()$/;"	f	class:CEchoServer
+RunForever	samples/echo-server.h	/^	int RunForever()$/;"	f	class:CWorker
+RunForever	src/Reactor.cpp	/^int CReactor::RunForever(int loops)$/;"	f	class:CReactor
+RunForever	test/echo-client.h	/^	int RunForever()$/;"	f	class:CClientSimulator
+RunForever	test/echo-server.h	/^	int RunForever()$/;"	f	class:CEchoServer
+RunForever	test/echo-server.h	/^	int RunForever()$/;"	f	class:CWorker
+SEH_ITR	include/SignalSet.h	/^    typedef SEH_MAP::iterator SEH_ITR;$/;"	t	namespace:hpsl
+SEH_MAP	include/SignalSet.h	/^    typedef std::map<IEventHandler*, DTEV_ITEM> SEH_MAP;$/;"	t	namespace:hpsl
+SEH_PAIR	include/SignalSet.h	/^    typedef std::pair<IEventHandler*, DTEV_ITEM> SEH_PAIR;$/;"	t	namespace:hpsl
+SET_SOCK_ERR	src/win32/SockUtil.cpp	9;"	d	file:
+SOCK_ERR	include/linux/SockUtil.h	38;"	d
+SOCK_ERR	include/win32/SockUtil.h	31;"	d
+SRC	make/Makefile	/^SRC = ..\/src$/;"	m
+SRC	samples/Makefile	/^SRC = ..\/src$/;"	m
+SRC	test/Makefile	/^SRC = ..\/src$/;"	m
+STATIC_LIB_PATH	make/Makefile	/^STATIC_LIB_PATH = -L. -L..\/lib$/;"	m
+STR_FORMAT	test/echo-client.h	23;"	d
+STR_FORMAT	test/test-mul-events.cpp	21;"	d	file:
+ScheduleActiveEvent	src/Reactor.cpp	/^void CReactor::ScheduleActiveEvent(DTEV_ITEM *pEvItem)$/;"	f	class:CReactor
+ScheduleActiveEvents	src/EventScheduler.cpp	/^void CDefScheduler::ScheduleActiveEvents(std::vector<DTEV_ITEM *> *pVecActiveList, int size)$/;"	f	class:CDefScheduler
+SetEventScheduler	include/Reactor.h	/^	inline int CReactor::SetEventScheduler(IEventScheduler *pScheduler)$/;"	f	class:hpsl::CReactor
+SetLogFile	src/Log.cpp	/^int CLog::SetLogFile(FILE *pF)$/;"	f	class:CLog
+SetLogFile	src/Log.cpp	/^int CLog::SetLogFile(const string &file)$/;"	f	class:CLog
+SetLogLevel	include/Log.h	/^		static inline void SetLogLevel(LOG_LEVEL level){m_level = level;}$/;"	f	class:hpsl::CLog
+SetPeriod	test/test-timer.cpp	/^	void SetPeriod(struct timeval *ptv) $/;"	f	class:CSigHandler
+SetPriority	include/EventHandler.h	/^        inline void SetPriority(short prio) {if((prio>=0) && (prio<MAX_EV_PRIORITY)) m_priority = prio;}$/;"	f	class:hpsl::IEventHandler
+SetReactor	include/EventHandler.h	/^		inline void SetReactor(CReactor *pReactor) 		{if(m_pReactor == NULL) m_pReactor = pReactor;}$/;"	f	class:hpsl::IEventHandler
+SetSendStr	test/test-mul-events.cpp	/^	void SetSendStr(const char *str)$/;"	f	class:CReadHandler
+SetSendStr	test/test-mul-events.cpp	/^	void SetSendStr(const char *str)$/;"	f	class:CWriteHandler
+SetSigReactor	src/Reactor.cpp	/^void CReactor::SetSigReactor(CReactor *pReactor)$/;"	f	class:CReactor
+SetWorker	samples/echo-server.h	/^	void SetWorker(CWorker* pWorker) {m_pWorker = pWorker;}$/;"	f	class:CNotifyHandler
+SetWorker	test/echo-server.h	/^	void SetWorker(CWorker* pWorker) {m_pWorker = pWorker;}$/;"	f	class:CNotifyHandler
+Size	include/InetAddr.h	/^        inline size_t Size() {return sizeof(_addr4);}$/;"	f	class:hpsl::CInetAddr
+Size	include/InetAddr.h	/^    inline size_t CInetAddr::Size()$/;"	f	class:hpsl::CInetAddr
+SockSetFD	include/linux/SockUtil.h	/^		static inline int SockSetFD(HL_SOCKET sock, int value)$/;"	f	class:hpsl::CSockUtil
+SockSetFD	include/win32/SockUtil.h	/^		static inline int SockSetFD(HL_SOCKET sock, int value)$/;"	f	class:hpsl::CSockUtil
+SockSetNonBlocking	include/linux/SockUtil.h	/^		static inline int SockSetNonBlocking(HL_SOCKET sock)$/;"	f	class:hpsl::CSockUtil
+SockSetNonBlocking	include/win32/SockUtil.h	/^		static inline int SockSetNonBlocking(HL_SOCKET sock)$/;"	f	class:hpsl::CSockUtil
+Spawn	samples/echo-server.cpp	/^	static int Spawn(THREAD_HANDLE *pHandle, THREAD_CALLBACK pCallBack, void *pArg)$/;"	f	class:CThreadManager
+Spawn	test/test-threads.cpp	/^	static int Spawn(THREAD_HANDLE *pHandle, THREAD_CALLBACK pCallBack, void *pArg)$/;"	f	class:CThreadManager
+StartTimer	test/test-timer.cpp	/^	void StartTimer(){CTimeUtil::GetSysTime(&m_tv);}$/;"	f	class:CSigHandler
+Stop	include/Reactor.h	/^		inline void Stop()		{m_bNeedStop = true;}$/;"	f	class:hpsl::CReactor
+Stop	samples/echo-server.h	/^	void Stop()$/;"	f	class:CEchoServer
+Stop	samples/echo-server.h	/^	void Stop()$/;"	f	class:CWorker
+Stop	test/echo-client.h	/^	void Stop()$/;"	f	class:CClientSimulator
+Stop	test/echo-server.h	/^	void Stop()$/;"	f	class:CEchoServer
+Stop	test/echo-server.h	/^	void Stop()$/;"	f	class:CWorker
+TEXT	include/defines.h	22;"	d
+THREAD_CALLBACK	samples/echo-server.cpp	/^typedef DWORD WINAPI(*THREAD_CALLBACK)(void *pArg);$/;"	t	file:
+THREAD_CALLBACK	samples/echo-server.cpp	/^typedef void* (*THREAD_CALLBACK)(void *pArg);$/;"	t	file:
+THREAD_CALLBACK	test/test-threads.cpp	/^typedef DWORD (WINAPI*THREAD_CALLBACK)(void *pArg);$/;"	t	file:
+THREAD_CALLBACK	test/test-threads.cpp	/^typedef void* (*THREAD_CALLBACK)(void *pArg);$/;"	t	file:
+THREAD_HANDLE	samples/echo-server.cpp	/^typedef HANDLE THREAD_HANDLE;$/;"	t	file:
+THREAD_HANDLE	samples/echo-server.cpp	/^typedef pthread_t THREAD_HANDLE;$/;"	t	file:
+THREAD_HANDLE	test/test-threads.cpp	/^typedef HANDLE THREAD_HANDLE;$/;"	t	file:
+THREAD_HANDLE	test/test-threads.cpp	/^typedef pthread_t THREAD_HANDLE;$/;"	t	file:
+THREAD_ID	samples/echo-server.cpp	/^typedef DWORD THREAD_ID;$/;"	t	file:
+THREAD_ID	samples/echo-server.cpp	/^typedef pthread_t THREAD_ID;$/;"	t	file:
+THREAD_ID	test/test-threads.cpp	/^typedef DWORD THREAD_ID;$/;"	t	file:
+THREAD_ID	test/test-threads.cpp	/^typedef pthread_t THREAD_ID;$/;"	t	file:
+TestSimpleEvent	test/test-mul-events.cpp	/^void TestSimpleEvent(CReactor *pReactor)$/;"	f
+TestSimpleEvent	test/test-sim-events.cpp	/^void TestSimpleEvent(CReactor *pReactor)$/;"	f
+TestSimpleEvent	test/test-timer.cpp	/^void TestSimpleEvent(CReactor *pReactor)$/;"	f
+TimeAdd	include/TimeUtil.h	/^        static inline void TimeAdd(const struct timeval *ptv1, const struct timeval *ptv2, struct timeval *vvp)$/;"	f	class:hpsl::CTimeUtil
+TimeClear	include/TimeUtil.h	/^        static inline void TimeClear(struct timeval *ptv)$/;"	f	class:hpsl::CTimeUtil
+TimeEuqal	include/TimeUtil.h	/^        static inline bool TimeEuqal(const struct timeval *ptv1, const struct timeval *ptv2)$/;"	f	class:hpsl::CTimeUtil
+TimeGreater	include/TimeUtil.h	/^        static inline bool TimeGreater(const struct timeval *ptv1, const struct timeval *ptv2)$/;"	f	class:hpsl::CTimeUtil
+TimeLess	include/TimeUtil.h	/^        static inline bool TimeLess(const struct timeval *ptv1, const struct timeval *ptv2)$/;"	f	class:hpsl::CTimeUtil
+TimeSet	include/TimeUtil.h	/^        static inline void TimeSet(struct timeval *ptv, int sec, int usec)$/;"	f	class:hpsl::CTimeUtil
+TimeSub	include/TimeUtil.h	/^        static inline void TimeSub(const struct timeval *ptv1, const struct timeval *ptv2, struct timeval *vvp)$/;"	f	class:hpsl::CTimeUtil
+ToEventHandler	src/Reactor.cpp	/^IEventHandler* CReactor::ToEventHandler(DTEV_ITEM* pEvItem)$/;"	f	class:CReactor
+Top	include/MinHeap.h	/^    inline DTEV_ITEM *CMinHeap::Top()$/;"	f	class:hpsl::CMinHeap
+UnregisterEvent	include/Reactor.h	/^	inline int CReactor::UnregisterEvent(IEventHandler* pHandler, short event)$/;"	f	class:hpsl::CReactor
+UnregisterEvent	src/Reactor.cpp	/^int CReactor::UnregisterEvent(HL_SOCKET handle, short event)$/;"	f	class:CReactor
+UnregisterEvent	src/linux/Reactor_Epoll.cpp	/^int CReactor_Epoll::UnregisterEvent(const DTEV_ITEM *pEvItem, short event)$/;"	f	class:CReactor_Epoll
+UnregisterEvent	src/linux/Reactor_Select.cpp	/^int CReactor_Select::UnregisterEvent(const DTEV_ITEM* pEvItem, short event)$/;"	f	class:CReactor_Select
+UnregisterEvent	src/win32/Reactor_Select.cpp	/^int CReactor_Select::UnregisterEvent(const DTEV_ITEM *pEvItem, short event)$/;"	f	class:CReactor_Select
+UnregisterSignalEvent	src/SignalInfo.cpp	/^int CSignalInfo::UnregisterSignalEvent(DTEV_ITEM* pEvItem)$/;"	f	class:CSignalInfo
+Update	include/MinHeap.h	/^    inline void CMinHeap::Update(DTEV_ITEM *pEvItem)$/;"	f	class:hpsl::CMinHeap
+WIN32_LEAN_AND_MEAN	include/TimeUtil.h	12;"	d
+WIN32_LEAN_AND_MEAN	include/defines.h	29;"	d
+WORKER_NUM	samples/echo-server.cpp	4;"	d	file:
+WORKER_NUM	test/test-threads.cpp	20;"	d	file:
+WriteNotification	samples/echo-server.h	/^	void WriteNotification()$/;"	f	class:CNotifyHandler
+WriteNotification	test/echo-server.h	/^	void WriteNotification()$/;"	f	class:CNotifyHandler
+_REACTOR_H_	include/linux/Reactor_Select.h	7;"	d
+_REACTOR_SELECT_H_	include/win32/Reactor_Select.h	7;"	d
+_SIGNAL_INFO_H_	include/SignalInfo.h	7;"	d
+__CONNECTOR_H_	include/Connector.h	7;"	d
+__DEFINES_H_	include/defines.h	7;"	d
+__DEMUX_TABLE_H_	include/linux/DemuxTable.h	7;"	d
+__DEMUX_TABLE_H_	include/win32/DemuxTable.h	7;"	d
+__EVENT_ITEM_H_	include/EventItem.h	7;"	d
+__Finalize	src/Reactor.cpp	15;"	d	file:
+__Free	include/defines.h	66;"	d
+__HP_CONFIG_H_	include/HP_Config.h	7;"	d
+__INET_ADDR_H_	include/InetAddr.h	7;"	d
+__I_EVENT_HANDLER_H_	include/EventHandler.h	7;"	d
+__I_EVENT_SCHEDULER_H_	include/EventScheduler.h	7;"	d
+__I_HANDLERS_INTERNAL_H_	include/InternalHandlers-Internal.h	7;"	d
+__I_REACTOR_IMP_H_	include/Reactor_Imp.h	7;"	d
+__LOG_H_	include/Log.h	7;"	d
+__MIN_HEAP_H_	include/MinHeap.h	7;"	d
+__REACTOR_EPOLL_H_	include/linux/Reactor_Epoll.h	7;"	d
+__REACTOR_H_	include/Reactor.h	7;"	d
+__SIGNAL_SET_H_	include/SignalSet.h	7;"	d
+__SOCK_ACCEPTOR_H_	include/SockAcceptor.h	7;"	d
+__SOCK_UTIL_H_	include/linux/SockUtil.h	7;"	d
+__SOCK_UTIL_H_	include/win32/SockUtil.h	7;"	d
+__TIME_UTIL_H_	include/TimeUtil.h	7;"	d
+__TO_HANDLER	include/EventItem.h	19;"	d
+__constructAddr4	src/InetAddr.cpp	/^inline void __constructAddr4(struct sockaddr_in &_addr4, const char *addr, u_short port, IP_VER ver)$/;"	f
+_addr4	include/InetAddr.h	/^            struct sockaddr_in  _addr4;$/;"	m	union:hpsl::CInetAddr::__anon1	typeref:struct:hpsl::CInetAddr::__anon1::sockaddr_in
+_addr4	include/InetAddr.h	/^        struct sockaddr_in  _addr4;$/;"	m	class:hpsl::CInetAddr	typeref:struct:hpsl::CInetAddr::sockaddr_in
+_addr6	include/InetAddr.h	/^            struct sockaddr_in6 _addr6;$/;"	m	union:hpsl::CInetAddr::__anon1	typeref:struct:hpsl::CInetAddr::__anon1::sockaddr_in6
+_ver	include/InetAddr.h	/^        IP_VER _ver;$/;"	m	class:hpsl::CInetAddr
+clientThread	test/test-threads.cpp	/^void clientThread(void *arg)$/;"	f
+correctTimer	src/Reactor.cpp	/^void CReactor::correctTimer(struct timeval &tv)$/;"	f	class:CReactor
+createClients	test/echo-client.h	/^	void createClients(CInetAddr &svrAddr, int size)$/;"	f	class:CClientSimulator
+createInternalHandlers	src/Reactor.cpp	/^int CReactor::createInternalHandlers()$/;"	f	class:CReactor
+evActive	include/EventItem.h	/^		short events, evActive;$/;"	m	struct:hpsl::DTEV_ITEM
+eventLoopOnce	src/Reactor.cpp	/^int CReactor::eventLoopOnce()$/;"	f	class:CReactor
+events	include/EventItem.h	/^		short events, evActive;$/;"	m	struct:hpsl::DTEV_ITEM
+flags	include/EventItem.h	/^		short flags; \/\/ event flags$/;"	m	struct:hpsl::DTEV_ITEM
+gStrLevelString	src/Log.cpp	/^const char *gStrLevelString[] = $/;"	v
+g_client	test/echo-client.h	/^CClientHandler g_client[CLIENT_NUM];$/;"	v
+g_clients_pass	test/test-threads.cpp	/^int g_clients_pass;$/;"	v
+g_clients_total	test/test-threads.cpp	/^int g_clients_total;$/;"	v
+g_echoServer	samples/echo-server.cpp	/^CEchoServer g_echoServer;$/;"	v
+g_echoServer	test/test-threads.cpp	/^CEchoServer g_echoServer;$/;"	v
+g_expired_timers	test/test-timer.cpp	/^int  g_expired_timers, g_max_precise, g_min_precise;$/;"	v
+g_ipair	test/test-mul-events.cpp	/^int g_ipair; \/\/ total socket pairs in test$/;"	v
+g_ipair	test/test-sim-events.cpp	/^int g_ipair;$/;"	v
+g_irecv	test/test-mul-events.cpp	/^int g_irecv; \/\/ pairs test finished$/;"	v
+g_irecv	test/test-sim-events.cpp	/^int g_irecv;$/;"	v
+g_max_precise	test/test-timer.cpp	/^int  g_expired_timers, g_max_precise, g_min_precise;$/;"	v
+g_min_precise	test/test-timer.cpp	/^int  g_expired_timers, g_max_precise, g_min_precise;$/;"	v
+g_pass	samples/echo-server.h	/^bool g_pass;$/;"	v
+g_pass	test/echo-server.h	/^bool g_pass;$/;"	v
+g_readHandler	test/test-mul-events.cpp	/^CReadHandler g_readHandler[PAIR_NUM];$/;"	v
+g_readHandler	test/test-sim-events.cpp	/^CReadHandler g_readHandler[PAIR_NUM];$/;"	v
+g_simulator	test/test-threads.cpp	/^CClientSimulator      g_simulator;$/;"	v
+g_worker	samples/echo-server.cpp	/^CWorker g_worker[WORKER_NUM];$/;"	v
+g_worker	test/test-threads.cpp	/^CWorker g_worker[WORKER_NUM];$/;"	v
+g_worker_id	samples/echo-server.cpp	/^int g_worker_id;$/;"	v
+g_worker_id	test/test-threads.cpp	/^int g_worker_id;$/;"	v
+g_writeHandler	test/test-mul-events.cpp	/^CWriteHandler g_writeHandler[PAIR_NUM];$/;"	v
+g_writeHandler	test/test-sim-events.cpp	/^CWriteHandler g_writeHandler[PAIR_NUM];$/;"	v
+getEvItem	include/linux/DemuxTable.h	/^	inline DTEV_ITEM* CDemuxTable::getEvItem(HL_SOCKET handle)$/;"	f	class:hpsl::CDemuxTable
+getReactor	include/EventHandler.h	/^		inline CReactor *getReactor() {return m_pReactor;}$/;"	f	class:hpsl::IEventHandler
+getTime	src/Reactor.cpp	/^void CReactor::getTime(struct timeval &t)$/;"	f	class:CReactor
+gettimeofday	src/TimeUtil.cpp	/^static int gettimeofday(struct timeval *ptv, struct timezone *ptz)$/;"	f	file:
+handle	include/EventItem.h	/^		HL_SOCKET      handle; \/\/ hande of the event item, in linux it's the same as the index in DTEV_ITEM array$/;"	m	struct:hpsl::DTEV_ITEM
+handler2DtevItem	src/Reactor.cpp	/^DTEV_ITEM *CReactor::handler2DtevItem(IEventHandler *pHandler)$/;"	f	class:CReactor
+heapIndex	include/EventItem.h	/^        int   heapIndex; \/\/ index in timer min-heap$/;"	m	struct:hpsl::DTEV_ITEM
+howmany	src/linux/Reactor_Select.cpp	10;"	d	file:
+hpsl	include/Connector.h	/^namespace hpsl$/;"	n
+hpsl	include/EventHandler.h	/^namespace hpsl$/;"	n
+hpsl	include/EventItem.h	/^namespace hpsl$/;"	n
+hpsl	include/EventScheduler.h	/^namespace hpsl$/;"	n
+hpsl	include/InetAddr.h	/^namespace hpsl$/;"	n
+hpsl	include/InternalHandlers-Internal.h	/^namespace hpsl$/;"	n
+hpsl	include/Log.h	/^namespace hpsl$/;"	n
+hpsl	include/MinHeap.h	/^namespace hpsl$/;"	n
+hpsl	include/Reactor.h	/^namespace hpsl$/;"	n
+hpsl	include/Reactor_Imp.h	/^namespace hpsl$/;"	n
+hpsl	include/SignalInfo.h	/^namespace hpsl$/;"	n
+hpsl	include/SignalSet.h	/^namespace hpsl$/;"	n
+hpsl	include/SockAcceptor.h	/^namespace hpsl$/;"	n
+hpsl	include/TimeUtil.h	/^namespace hpsl$/;"	n
+hpsl	include/linux/DemuxTable.h	/^namespace hpsl$/;"	n
+hpsl	include/linux/Reactor_Epoll.h	/^namespace hpsl$/;"	n
+hpsl	include/linux/Reactor_Select.h	/^namespace hpsl$/;"	n
+hpsl	include/linux/SockUtil.h	/^namespace hpsl$/;"	n
+hpsl	include/win32/DemuxTable.h	/^namespace hpsl$/;"	n
+hpsl	include/win32/Reactor_Select.h	/^namespace hpsl	$/;"	n
+hpsl	include/win32/SockUtil.h	/^namespace hpsl$/;"	n
+hpsl	src/Reactor_Imp.cpp	/^namespace hpsl$/;"	n	file:
+item_array	include/linux/DemuxTable.h	/^			DTEV_ITEM *item_array;$/;"	m	struct:hpsl::CDemuxTable::ELE_SET
+m_acceptor	samples/echo-server.h	/^	CEchoAcceptHandler m_acceptor;$/;"	m	class:CEchoServer
+m_acceptor	test/echo-server.h	/^	CEchoAcceptHandler m_acceptor;$/;"	m	class:CEchoServer
+m_active	test/echo-client.h	/^    bool m_active, m_connectOK;$/;"	m	class:CClientHandler
+m_active	test/test-mul-events.cpp	/^	bool m_active;$/;"	m	class:CReadHandler	file:
+m_active	test/test-mul-events.cpp	/^	bool m_active;$/;"	m	class:CWriteHandler	file:
+m_activeHandlers	include/Reactor.h	/^        int m_activeHandlers;$/;"	m	class:hpsl::CReactor
+m_bMonotonicTime	include/TimeUtil.h	/^        static bool m_bMonotonicTime;$/;"	m	class:hpsl::CTimeUtil
+m_bNeedStop	include/Reactor.h	/^        volatile bool m_bRunning, m_bNeedStop;$/;"	m	class:hpsl::CReactor
+m_bRunning	include/Reactor.h	/^        volatile bool m_bRunning, m_bNeedStop;$/;"	m	class:hpsl::CReactor
+m_buff	samples/echo-server.h	/^	char m_buff[BUF_SIZE];$/;"	m	class:CEchoHandler
+m_buff	test/echo-server.h	/^	char m_buff[BUF_SIZE];$/;"	m	class:CEchoHandler
+m_connectOK	test/echo-client.h	/^    bool m_active, m_connectOK;$/;"	m	class:CClientHandler
+m_connector	test/echo-client.h	/^	CConnector m_connector;$/;"	m	class:CClientSimulator
+m_count	samples/signal-handler.cpp	/^    int m_count;$/;"	m	class:CSingalHandler	file:
+m_criticalSection	test/echo-server.h	/^	CRITICAL_SECTION m_criticalSection;$/;"	m	class:CList
+m_defScheduler	include/Reactor.h	/^        CDefScheduler    m_defScheduler;$/;"	m	class:hpsl::CReactor
+m_epollFD	include/linux/Reactor_Epoll.h	/^		int m_epollFD;$/;"	m	class:hpsl::CReactor_Epoll
+m_fdsz	include/linux/Reactor_Select.h	/^		int m_fdsz;$/;"	m	class:hpsl::CReactor_Select
+m_handle	include/EventHandler.h	/^        HL_SOCKET m_handle;$/;"	m	class:hpsl::IEventHandler
+m_handle	include/SockAcceptor.h	/^        HL_SOCKET m_handle;$/;"	m	class:hpsl::CSockAcceptor
+m_iCapacity	include/MinHeap.h	/^        int  m_iSize, m_iCapacity;$/;"	m	class:hpsl::CMinHeap
+m_iCapacity	include/linux/DemuxTable.h	/^        size_t m_iSize, m_iCapacity;$/;"	m	class:hpsl::CDemuxTable
+m_iEvents	include/linux/Reactor_Epoll.h	/^		int m_iEvents;$/;"	m	class:hpsl::CReactor_Epoll
+m_iSize	include/MinHeap.h	/^        int  m_iSize, m_iCapacity;$/;"	m	class:hpsl::CMinHeap
+m_iSize	include/linux/DemuxTable.h	/^        size_t m_iSize, m_iCapacity;$/;"	m	class:hpsl::CDemuxTable
+m_icatchs	test/test-mul-events.cpp	/^	int m_icatchs;$/;"	m	class:CSigHandler	file:
+m_icatchs	test/test-sim-events.cpp	/^	int m_icatchs;$/;"	m	class:CSigHandler	file:
+m_iread	test/test-mul-events.cpp	/^	int  m_iread;$/;"	m	class:CReadHandler	file:
+m_isSignal	include/EventHandler.h	/^		bool m_isSignal;$/;"	m	class:hpsl::IEventHandler
+m_isend	test/test-mul-events.cpp	/^	int  m_isend;$/;"	m	class:CWriteHandler	file:
+m_isigCaught	include/SignalInfo.h	/^		sig_atomic_t  m_isigCaught[NSIG];$/;"	m	class:hpsl::CSignalInfo
+m_itemSize	include/win32/Reactor_Select.h	/^		int m_itemSize;$/;"	m	class:hpsl::CReactor_Select
+m_itimeout	test/echo-client.h	/^	int m_rpos, m_wpos, m_itimeout;$/;"	m	class:CClientHandler
+m_itr	include/SignalSet.h	/^        SEH_ITR  m_itr;$/;"	m	class:hpsl::CSignalSet
+m_itr	include/linux/DemuxTable.h	/^        size_t m_itr; \/\/ iterator$/;"	m	class:hpsl::CDemuxTable
+m_itr	include/win32/DemuxTable.h	/^        EH_MAP::iterator m_itr; \/\/ used for iteration$/;"	m	class:hpsl::CDemuxTable
+m_lastActive	samples/echo-server.h	/^    long m_lastActive;$/;"	m	class:CEchoHandler
+m_lastActive	test/echo-server.h	/^    long m_lastActive;$/;"	m	class:CEchoHandler
+m_level	include/Log.h	/^		static LOG_LEVEL m_level;$/;"	m	class:hpsl::CLog
+m_level	src/Log.cpp	/^LOG_LEVEL CLog::m_level = LL_NORMAL;$/;"	m	class:CLog	file:
+m_list	test/echo-server.h	/^	std::list<T> m_list;$/;"	m	class:CList
+m_mapHandlers	include/SignalSet.h	/^        SEH_MAP  m_mapHandlers;$/;"	m	class:hpsl::CSignalSet
+m_mapHandlers	include/win32/DemuxTable.h	/^        EH_MAP       m_mapHandlers;$/;"	m	class:hpsl::CDemuxTable
+m_maxFds	include/linux/Reactor_Select.h	/^		int m_maxFds; \/\/max file descriptor $/;"	m	class:hpsl::CReactor_Select
+m_notifier	samples/echo-server.h	/^	CNotifyHandler m_notifier;$/;"	m	class:CWorker
+m_notifier	test/echo-server.h	/^	CNotifyHandler m_notifier;$/;"	m	class:CWorker
+m_pAcceptor	samples/echo-server.h	/^    CSockAcceptor *m_pAcceptor;$/;"	m	class:CEchoAcceptHandler
+m_pAcceptor	test/echo-server.h	/^    CSockAcceptor *m_pAcceptor;$/;"	m	class:CEchoAcceptHandler
+m_pEvItems	include/win32/Reactor_Select.h	/^		const DTEV_ITEM *m_pEvItems[FD_SETSIZE];$/;"	m	class:hpsl::CReactor_Select
+m_pEvents	include/linux/Reactor_Epoll.h	/^		struct epoll_event *m_pEvents;$/;"	m	class:hpsl::CReactor_Epoll	typeref:struct:hpsl::CReactor_Epoll::epoll_event
+m_pEvents	include/linux/Reactor_Select.h	/^		struct DTEV_ITEM** m_pEvents; \/\/store event has been registered $/;"	m	class:hpsl::CReactor_Select	typeref:struct:hpsl::CReactor_Select::DTEV_ITEM
+m_pHeap	include/MinHeap.h	/^        DTEV_ITEM **m_pHeap;$/;"	m	class:hpsl::CMinHeap
+m_pImp	include/Reactor.h	/^		IReactor_Imp *m_pImp; \/\/ real implementation$/;"	m	class:hpsl::CReactor
+m_pLog	include/Log.h	/^		static FILE *m_pLog;$/;"	m	class:hpsl::CLog
+m_pLog	src/Log.cpp	/^FILE     *CLog::m_pLog  = NULL;$/;"	m	class:CLog	file:
+m_pReactor	include/EventHandler.h	/^		CReactor *m_pReactor;$/;"	m	class:hpsl::IEventHandler
+m_pReactor	include/EventScheduler.h	/^		CReactor *m_pReactor;$/;"	m	class:hpsl::IEventScheduler
+m_pReactor	include/SignalInfo.h	/^		CReactor* m_pReactor;$/;"	m	class:hpsl::CSignalInfo
+m_pReactor	include/linux/Reactor_Epoll.h	/^		CReactor *m_pReactor;$/;"	m	class:hpsl::CReactor_Epoll
+m_pReactor	include/linux/Reactor_Select.h	/^		CReactor* m_pReactor;$/;"	m	class:hpsl::CReactor_Select
+m_pReactor	include/win32/Reactor_Select.h	/^		CReactor* m_pReactor;$/;"	m	class:hpsl::CReactor_Select
+m_pReadset_in	include/linux/Reactor_Select.h	/^		fd_set*  m_pReadset_in;$/;"	m	class:hpsl::CReactor_Select
+m_pReadset_out	include/linux/Reactor_Select.h	/^		fd_set*  m_pReadset_out;$/;"	m	class:hpsl::CReactor_Select
+m_pScheduler	include/Reactor.h	/^		IEventScheduler *m_pScheduler;$/;"	m	class:hpsl::CReactor
+m_pTable	include/linux/DemuxTable.h	/^		ELE_SET m_pTable[ELE_SET_ARRAY_NUM];$/;"	m	class:hpsl::CDemuxTable
+m_pWorker	samples/echo-server.h	/^	CWorker *m_pWorker;$/;"	m	class:CNotifyHandler
+m_pWorker	test/echo-server.h	/^	CWorker *m_pWorker;$/;"	m	class:CNotifyHandler
+m_pWriteset_in	include/linux/Reactor_Select.h	/^		fd_set*  m_pWriteset_in;$/;"	m	class:hpsl::CReactor_Select
+m_pWriteset_out	include/linux/Reactor_Select.h	/^		fd_set*  m_pWriteset_out;$/;"	m	class:hpsl::CReactor_Select
+m_period	test/test-timer.cpp	/^	int m_period;$/;"	m	class:CSigHandler	file:
+m_pipe	samples/echo-server.h	/^	HL_HANDLE m_pipe[2];$/;"	m	class:CNotifyHandler
+m_pipe	test/echo-server.h	/^	HL_SOCKET m_pipe[2];$/;"	m	class:CNotifyHandler
+m_priority	include/EventHandler.h	/^        short m_priority;$/;"	m	class:hpsl::IEventHandler
+m_rbuff	test/echo-client.h	/^	char m_rbuff[BUF_SIZE], m_wbuff[BUF_SIZE];$/;"	m	class:CClientHandler
+m_reactor	samples/echo-server.h	/^	CReactor m_reactor;$/;"	m	class:CEchoServer
+m_reactor	samples/echo-server.h	/^	CReactor m_reactor;$/;"	m	class:CWorker
+m_reactor	test/echo-client.h	/^	CReactor m_reactor;$/;"	m	class:CClientSimulator
+m_reactor	test/echo-server.h	/^	CReactor m_reactor;$/;"	m	class:CEchoServer
+m_reactor	test/echo-server.h	/^	CReactor m_reactor;$/;"	m	class:CWorker
+m_readSet	include/win32/Reactor_Select.h	/^		fd_set m_readSet, m_readSet_Cache;$/;"	m	class:hpsl::CReactor_Select
+m_readSet_Cache	include/win32/Reactor_Select.h	/^		fd_set m_readSet, m_readSet_Cache;$/;"	m	class:hpsl::CReactor_Select
+m_recvbuf	test/test-mul-events.cpp	/^	char m_recvbuf[256];$/;"	m	class:CReadHandler	file:
+m_ref	include/EventHandler.h	/^		short m_ref;$/;"	m	class:hpsl::IEventHandler
+m_rpos	samples/echo-server.h	/^	int m_rpos, m_wpos;$/;"	m	class:CEchoHandler
+m_rpos	test/echo-client.h	/^	int m_rpos, m_wpos, m_itimeout;$/;"	m	class:CClientHandler
+m_rpos	test/echo-server.h	/^	int m_rpos, m_wpos;$/;"	m	class:CEchoHandler
+m_send_str	test/test-mul-events.cpp	/^	char m_send_str[256];$/;"	m	class:CReadHandler	file:
+m_sendbuff	test/test-mul-events.cpp	/^	char m_sendbuff[256];$/;"	m	class:CWriteHandler	file:
+m_setSigHandlers	include/Reactor.h	/^        CSignalSet    *m_setSigHandlers;$/;"	m	class:hpsl::CReactor
+m_sigHandler	samples/echo-server.h	/^	CSigHandler  m_sigHandler;$/;"	m	class:CEchoServer
+m_sigHandler	test/echo-server.h	/^	CSigHandler  m_sigHandler;$/;"	m	class:CEchoServer
+m_sigHandler_old	include/SignalInfo.h	/^		sighandler_t m_sigHandler_old[NSIG];$/;"	m	class:hpsl::CSignalInfo
+m_sigHandler_old	include/SignalInfo.h	/^		struct sigaction* m_sigHandler_old[NSIG];	$/;"	m	class:hpsl::CSignalInfo	typeref:struct:hpsl::CSignalInfo::sigaction
+m_sigInfo	include/Reactor.h	/^        CSignalInfo   *m_sigInfo;$/;"	m	class:hpsl::CReactor
+m_signal	include/InternalHandlers-Internal.h	/^        char   m_signal[2];	$/;"	m	class:hpsl::CMonitorSignalHandler
+m_signalHandler	include/SignalInfo.h	/^		std::list<DTEV_ITEM*> m_signalHandler[NSIG];$/;"	m	class:hpsl::CSignalInfo
+m_sockAcceptor	samples/echo-server.h	/^    CSockAcceptor m_sockAcceptor;$/;"	m	class:CEchoServer
+m_sockAcceptor	test/echo-server.h	/^    CSockAcceptor m_sockAcceptor;$/;"	m	class:CEchoServer
+m_socketPair	include/SignalInfo.h	/^		HL_SOCKET m_socketPair[2];$/;"	m	class:hpsl::CSignalInfo
+m_strLogFile	include/Log.h	/^		static string m_strLogFile;$/;"	m	class:hpsl::CLog
+m_strLogFile	src/Log.cpp	/^string    CLog::m_strLogFile = "";$/;"	m	class:CLog	file:
+m_tabIoHandlers	include/Reactor.h	/^		CDemuxTable   *m_tabIoHandlers;$/;"	m	class:hpsl::CReactor
+m_time	include/Reactor.h	/^        struct timeval m_time; \/\/ last dispatch return time$/;"	m	class:hpsl::CReactor	typeref:struct:hpsl::CReactor::timeval
+m_timeCache	include/Reactor.h	/^        struct timeval m_timeCache; \/\/ caches dispatch return time$/;"	m	class:hpsl::CReactor	typeref:struct:hpsl::CReactor::timeval
+m_timerHeap	include/Reactor.h	/^        CMinHeap      *m_timerHeap;$/;"	m	class:hpsl::CReactor
+m_tv	test/test-timer.cpp	/^	struct timeval m_tv;$/;"	m	class:CSigHandler	typeref:struct:CSigHandler::timeval	file:
+m_vecActiveList	include/Reactor.h	/^        std::vector<DTEV_ITEM *> m_vecActiveList[MAX_EV_PRIORITY];$/;"	m	class:hpsl::CReactor
+m_waitList	samples/echo-server.h	/^	CList<HL_SOCKET> m_waitList;$/;"	m	class:CWorker
+m_waitList	test/echo-server.h	/^	CList<HL_SOCKET> m_waitList;$/;"	m	class:CWorker
+m_wbuff	test/echo-client.h	/^	char m_rbuff[BUF_SIZE], m_wbuff[BUF_SIZE];$/;"	m	class:CClientHandler
+m_willwrite	test/test-sim-events.cpp	/^	int m_willwrite;$/;"	m	class:CWriteHandler	file:
+m_wpos	samples/echo-server.h	/^	int m_rpos, m_wpos;$/;"	m	class:CEchoHandler
+m_wpos	test/echo-client.h	/^	int m_rpos, m_wpos, m_itimeout;$/;"	m	class:CClientHandler
+m_wpos	test/echo-server.h	/^	int m_rpos, m_wpos;$/;"	m	class:CEchoHandler
+m_writeSet	include/win32/Reactor_Select.h	/^		fd_set m_writeSet, m_writeSet_Cache;$/;"	m	class:hpsl::CReactor_Select
+m_writeSet_Cache	include/win32/Reactor_Select.h	/^		fd_set m_writeSet, m_writeSet_Cache;$/;"	m	class:hpsl::CReactor_Select
+main	samples/echo-server.cpp	/^int main(int argc, char** argv)$/;"	f
+main	samples/signal-handler.cpp	/^int main(int argc, char** argv)$/;"	f
+main	test/test-all.cpp	/^int main()$/;"	f
+main	test/test-init.cpp	/^int main(int argc, char** argv)$/;"	f
+main	test/test-mul-events.cpp	/^int main(int argc, char** argv)$/;"	f
+main	test/test-sim-events.cpp	/^int main(int argc, char** argv)$/;"	f
+main	test/test-threads.cpp	/^int main(int argc, char** argv)$/;"	f
+main	test/test-timer.cpp	/^int main(int argc, char** argv)$/;"	f
+nsigs	include/EventItem.h	/^        short nsigs; \/\/ for signals $/;"	m	struct:hpsl::DTEV_ITEM
+pHandler	include/EventItem.h	/^		const void *pHandler; \/\/ event handler\/completion handler the handle binded to$/;"	m	struct:hpsl::DTEV_ITEM
+period	include/EventItem.h	/^        struct timeval period; \/\/ period value$/;"	m	struct:hpsl::DTEV_ITEM	typeref:struct:hpsl::DTEV_ITEM::timeval
+pipe	test/echo-server.h	/^int pipe(HL_SOCKET handle[])$/;"	f
+rand_int	test/test-mul-events.cpp	/^static int rand_int(int n)$/;"	f	file:
+rand_int	test/test-sim-events.cpp	/^static int rand_int(int n)$/;"	f	file:
+read	test/echo-server.h	/^int read(HL_SOCKET handle,char buf[], unsigned int count)$/;"	f
+recalc	src/linux/DemuxTable.cpp	/^int CDemuxTable::recalc(int max)$/;"	f	class:CDemuxTable
+reclac	src/linux/Reactor_Select.cpp	/^int CReactor_Select::reclac(int fdsz)$/;"	f	class:CReactor_Select
+registerSignal	src/Reactor.cpp	/^int CReactor::registerSignal(IEventHandler *pHandler)$/;"	f	class:CReactor
+removeSignalHandler	src/Reactor.cpp	/^int CReactor::removeSignalHandler(IEventHandler* pHandler)$/;"	f	class:CReactor
+restoreSignalHandler	src/SignalInfo.cpp	/^int CSignalInfo::restoreSignalHandler(int signum)$/;"	f	class:CSignalInfo
+send_to_worker	samples/echo-server.cpp	/^void send_to_worker(HL_SOCKET fd)$/;"	f
+send_to_worker	test/test-threads.cpp	/^void send_to_worker(HL_SOCKET fd)$/;"	f
+setSignalHandler	src/SignalInfo.cpp	/^int CSignalInfo::setSignalHandler(int signum)$/;"	f	class:CSignalInfo
+shiftDown	include/MinHeap.h	/^    inline void CMinHeap::shiftDown(int holeIdx, DTEV_ITEM *pEvItem)$/;"	f	class:hpsl::CMinHeap
+shiftUp	include/MinHeap.h	/^    inline void CMinHeap::shiftUp(int holeIdx, DTEV_ITEM *pEvItem)$/;"	f	class:hpsl::CMinHeap
+sig_handler	src/SignalInfo.cpp	/^void CSignalInfo::sig_handler(int signum)$/;"	f	class:CSignalInfo
+sighandler_t	include/SignalInfo.h	/^	typedef void (*sighandler_t) (int);$/;"	t	namespace:hpsl
+size	test/echo-server.h	/^	inline size_t size()$/;"	f	class:CList
+snprintf	include/Log.h	23;"	d
+tchar	include/defines.h	/^typedef char    tchar;$/;"	t
+tchar	include/defines.h	/^typedef char tchar;$/;"	t
+tchar	include/defines.h	/^typedef wchar_t tchar;$/;"	t
+timeout	include/EventItem.h	/^		struct timeval timeout; \/\/ next timeout value$/;"	m	struct:hpsl::DTEV_ITEM	typeref:struct:hpsl::DTEV_ITEM::timeval
+u_int	include/defines.h	/^typedef unsigned int   u_int;$/;"	t
+u_long	include/defines.h	/^typedef unsigned long  u_long;$/;"	t
+u_short	include/defines.h	/^typedef unsigned short u_short;$/;"	t
+unregisterSignal	src/Reactor.cpp	/^int CReactor::unregisterSignal(IEventHandler* pHandler, short event)$/;"	f	class:CReactor
+workerThread	samples/echo-server.cpp	/^void workerThread(void *arg)$/;"	f
+workerThread	test/test-threads.cpp	/^void workerThread(void *arg)$/;"	f
+write	test/echo-server.h	/^int write(HL_SOCKET handle, char buf[], unsigned int count)$/;"	f
+~CClientSimulator	test/echo-client.h	/^	~CClientSimulator(){}$/;"	f	class:CClientSimulator
+~CConnector	include/Connector.h	/^		virtual ~CConnector(){}$/;"	f	class:hpsl::CConnector
+~CDefScheduler	include/EventScheduler.h	/^		virtual ~CDefScheduler(){Finalize();}$/;"	f	class:hpsl::CDefScheduler
+~CDemuxTable	include/linux/DemuxTable.h	/^        ~CDemuxTable() {}$/;"	f	class:hpsl::CDemuxTable
+~CDemuxTable	include/win32/DemuxTable.h	/^        ~CDemuxTable() {}$/;"	f	class:hpsl::CDemuxTable
+~CEchoAcceptHandler	samples/echo-server.h	/^	virtual ~CEchoAcceptHandler(){}$/;"	f	class:CEchoAcceptHandler
+~CEchoAcceptHandler	test/echo-server.h	/^	virtual ~CEchoAcceptHandler(){}$/;"	f	class:CEchoAcceptHandler
+~CEchoHandler	samples/echo-server.h	/^	virtual ~CEchoHandler(){}$/;"	f	class:CEchoHandler
+~CEchoHandler	test/echo-server.h	/^	virtual ~CEchoHandler(){}$/;"	f	class:CEchoHandler
+~CEchoServer	samples/echo-server.h	/^	~CEchoServer(){}$/;"	f	class:CEchoServer
+~CEchoServer	test/echo-server.h	/^	~CEchoServer(){}$/;"	f	class:CEchoServer
+~CList	test/echo-server.h	/^	~CList()$/;"	f	class:CList
+~CLog	include/Log.h	/^        ~CLog() {Close();}$/;"	f	class:hpsl::CLog
+~CMinHeap	include/MinHeap.h	/^		~CMinHeap(){Finalize();}$/;"	f	class:hpsl::CMinHeap
+~CMonitorSignalHandler	include/InternalHandlers-Internal.h	/^        virtual ~CMonitorSignalHandler(){}$/;"	f	class:hpsl::CMonitorSignalHandler
+~CNotifyHandler	samples/echo-server.h	/^	virtual ~CNotifyHandler(){}$/;"	f	class:CNotifyHandler
+~CNotifyHandler	test/echo-server.h	/^	virtual ~CNotifyHandler(){}$/;"	f	class:CNotifyHandler
+~CReactor	include/Reactor.h	/^		~CReactor(){} \/\/ do not inherent from the class$/;"	f	class:hpsl::CReactor
+~CReactor_Epoll	include/linux/Reactor_Epoll.h	/^		virtual ~CReactor_Epoll() {}$/;"	f	class:hpsl::CReactor_Epoll
+~CReactor_Select	include/linux/Reactor_Select.h	/^		virtual ~CReactor_Select(){}$/;"	f	class:hpsl::CReactor_Select
+~CReactor_Select	include/win32/Reactor_Select.h	/^		virtual ~CReactor_Select(){}$/;"	f	class:hpsl::CReactor_Select
+~CReadHandler	test/test-mul-events.cpp	/^	virtual ~CReadHandler(){}$/;"	f	class:CReadHandler
+~CReadHandler	test/test-sim-events.cpp	/^	virtual ~CReadHandler()$/;"	f	class:CReadHandler
+~CSigHandler	samples/echo-server.h	/^	virtual ~CSigHandler(){}$/;"	f	class:CSigHandler
+~CSigHandler	test/echo-server.h	/^	virtual ~CSigHandler(){}$/;"	f	class:CSigHandler
+~CSigHandler	test/test-mul-events.cpp	/^	virtual ~CSigHandler(){}$/;"	f	class:CSigHandler
+~CSigHandler	test/test-sim-events.cpp	/^	virtual ~CSigHandler(){}$/;"	f	class:CSigHandler
+~CSigHandler	test/test-timer.cpp	/^	virtual ~CSigHandler(){}$/;"	f	class:CSigHandler
+~CSignalInfo	include/SignalInfo.h	/^		~CSignalInfo(){}$/;"	f	class:hpsl::CSignalInfo
+~CSignalSet	include/SignalSet.h	/^        ~CSignalSet() {}$/;"	f	class:hpsl::CSignalSet
+~CSingalHandler	samples/signal-handler.cpp	/^    virtual ~CSingalHandler(){}$/;"	f	class:CSingalHandler
+~CSockAcceptor	include/SockAcceptor.h	/^        ~CSockAcceptor() {CLOSE_SOCKET(m_handle);}$/;"	f	class:hpsl::CSockAcceptor
+~CWorker	samples/echo-server.h	/^	~CWorker(){}$/;"	f	class:CWorker
+~CWorker	test/echo-server.h	/^	~CWorker(){}$/;"	f	class:CWorker
+~CWriteHandler	test/test-mul-events.cpp	/^	virtual ~CWriteHandler()$/;"	f	class:CWriteHandler
+~CWriteHandler	test/test-sim-events.cpp	/^	virtual ~CWriteHandler()$/;"	f	class:CWriteHandler
+~IEventHandler	include/EventHandler.h	/^		virtual ~IEventHandler(){}$/;"	f	class:hpsl::IEventHandler
+~IEventScheduler	include/EventScheduler.h	/^		virtual ~IEventScheduler(){Finalize();}$/;"	f	class:hpsl::IEventScheduler
+~IReactor_Imp	include/Reactor_Imp.h	/^        virtual ~IReactor_Imp(){}$/;"	f	class:hpsl::IReactor_Imp
